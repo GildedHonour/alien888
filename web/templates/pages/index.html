@@ -1,0 +1,52 @@
+{{ define "content" }}
+<div
+  id="hero"
+  class="relative z-10 min-h-screen pt-[150px] xlg:pt-[100px] tablet:pb-[60px]"
+>
+  <div
+    class="relative mx-auto min-h-[700px] w-full max-w-[1120px] pl-[10px] pr-[10px]"
+  >
+    <div
+      class="max-w-[545px] pt-[100px] text-center xlg:pt-[50px] tablet:mb-[30px] tablet:max-w-full sm:pt-0"
+    >
+      <h1
+        class="text-bold font-nexabold text-[91px] font-bold uppercase leading-[91px] text-white sm:text-[65px] xs:text-left xs:text-[40px] xs:leading-[40px]"
+      >
+        AlienDojo
+      </h1>
+      <p
+        class="mt-7 font-nexa text-[19px] font-normal leading-[30px] text-white xs:mt-[10px] xs:text-left xs:text-[14px] xs:leading-[20px]"
+      >
+        The Lab is a product that allows hodlers to customize their
+        Berries with new attributes on-chain. Stay tuned for upcoming
+        item releases on the Blueberry Lab Store or on our Twitter.
+      </p>
+      <div
+        class="xs: mt-11 flex max-w-full space-x-6 tablet:justify-center xs:w-full xs:space-x-[10px]"
+      >
+        <a
+          href="./gallery"
+          class="rounded-[8px] bg-white px-[53px] py-[22px] text-center font-nexabold text-base font-normal text-black xs:w-1/2"
+          >Store</a
+        >
+        <a
+          href="./wardrobe"
+          class="rounded-[8px] border-2 border-white bg-white/10 px-[35px] py-[20px] text-center font-nexabold text-base font-normal text-white shadow-insetshadow xs:w-1/2"
+          >Wardrobe</a
+        >
+      </div>
+    </div>
+    <div
+      class="absolute right-0 top-0 tablet:relative tablet:top-auto tablet:mx-auto tablet:max-w-[666px]"
+    >
+      <img
+        width="666"
+        height="666"
+        src="./assets/img/hero-img.png"
+        alt=" cards"
+        class=""
+      />
+    </div>
+  </div>
+</div>
+{{ end }}

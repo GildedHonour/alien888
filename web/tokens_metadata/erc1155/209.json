@@ -1,0 +1,6 @@
+{
+    "name":"GBC x Giorgio Balbi",
+    "description":"Abstract Generative Background by the Talented Giorgio Balbi.",
+    "parent_relation_trait": "item_1",
+    "attributes":[{"trait_type":"Background","value":"Lab Flask"},{"trait_type":"Slot","value":"Background"}],
+    "image":"ipfs://bafybeig7dcmeutsapg3gzdzdyz4ikuq4wrlnx6udbneoyawypj3d347g2u/lab-209.png"}

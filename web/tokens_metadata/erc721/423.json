@@ -1,0 +1,30 @@
+{
+    "name": "888 ALIEN #423",
+    "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/423.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Cursed Marks"
+        },
+        {
+            "trait_type": "Clothes",
+            "value": "Black Crow"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Fringe"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Big Almonds"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Full Up"
+        }
+    ]
+}

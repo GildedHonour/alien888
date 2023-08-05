@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#171B1F] min-h-full min-w-[320px] overscroll-none;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1380px];
+    }
+}
+
+.nav-link {
+    @apply inline-block rounded-[6px] px-8 py-3 font-nexabold text-base font-bold text-white transition-all;
+}
+
+.burger.active .middle-line {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.burger .top-line {
+    transform: rotate(0);
+    top: 0;
+}
+
+.burger .bottom-line {
+    transform: rotate(0);
+}
+
+.burger.active .top-line {
+    position: relative;
+    transform: rotate(45deg);
+    top: 9px;
+    transition: 0.3s;
+}
+
+.burger.active .bottom-line {
+    position: relative;
+    transform: rotate(-45deg);
+    bottom: 9px;
+    transition: 0.3s;
+}
+
+#menu {
+    transition: 0.2s;
+}
+
+#menu.active {
+    top: 0;
+    transition: 0.2s;
+}
+
+.item-btn.active::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    background: url('../img/remove-item.svg') no-repeat center;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    z-index: 3;
+}
+
+.item-btn.active {
+    background: url('../img/item-small.png') no-repeat center;
+    background-size: contain;
+}
+
+.item-btn.active span {
+    display: none;
+}
+
+.item-select.active::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url('../img/buy.svg') no-repeat center;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    right: -13px;
+    top: -13px;
+    z-index: 3;
+}
+
+.item-select.chosen {
+    border: 3px solid #38E567;
+    border-radius: 15px;
+}
+
+.item-select.chosen::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url('../img/chosen.svg') no-repeat center;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    right: -13px;
+    top: -13px;
+    z-index: 3;
+}
+
+.item-select.chosen::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: inset 0px 4px 14px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+
+.item-select.inuse {
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.item-select.inuse::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url('../img/inuse.svg') no-repeat center;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    right: -13px;
+    top: -13px;
+    z-index: 3;
+}
+
+.item-select.inuse::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: inset 0px 4px 14px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+
+
+.item-dropdown.active .item-drop-btn-main {
+    background-color: #0e0f10;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.item-dropdown.active .item-drop-menu {
+    display: block;
+    border-radius: 0 0 8px 8px;
+    border: 2px solid #fff;
+    border-top: none;
+    overflow: hidden;
+}
+
+.items-content.active {
+    display: flex;
+}
+
+.header-lang-btn.active button {
+    border-radius: 10px 10px 0 0;
+}
+
+.header-lang-btn.active button svg {
+    transform: rotate(-180deg);
+}
+
+.header-lang-btn.active .header-lang-drop {
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    display: flex;
+}
+
+.menu-lang-btn.active button {
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-lang-btn.active button svg {
+    transform: rotate(-180deg);
+}
+
+.menu-lang-btn.active .menu-lang-drop {
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    display: flex;
+}
+
+.amount-drop.active .amount-drop-items {
+    display: flex;
+}
+
+.wallet-tab-btn.active {
+    background-color: #fff;
+    color: #0e0f10;
+}

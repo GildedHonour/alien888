@@ -1,0 +1,26 @@
+/etc/systemd/system/alien888_webapp.service
+---
+
+[Unit]
+Description=alien888 web application
+ConditionPathExists=/usr/local/web/alien888/web/alien888_exe
+After=network.target
+
+[Service]
+Type=simple
+User=izanagi
+Group=izanagi
+LimitNOFILE=1024
+
+Restart=on-failure
+RestartSec=10
+StartLimitIntervalSec=60
+
+WorkingDirectory=/usr/local/web/alien888/web
+ExecStart=/usr/local/web/alien888/web/alien888_exe
+
+EnvironmentFile=/usr/local/web/alien888/web/.env
+SyslogIdentifier=alien888_webapp
+
+[Install]
+WantedBy=multi-user.target

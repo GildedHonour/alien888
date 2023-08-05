@@ -1,0 +1,9 @@
+{
+  "name":"Skeleton #1",
+  "description":"Frankenstein and Dracula have nothing on Bloody Mary, although all these Classics are definitely scary. Here’s some thing from GBC for you it’s a real gusher, please let me introduce to you the infamous Mr. BoneCrusher!",
+  "attributes":[
+    {"trait_type":"Clothes","value":"Skeleton"},
+    {"trait_type":"Slot","value":"Wear"}
+  ],
+  "image":"ipfs://bafybeie5s557pnamxuuq6o6yilb2nzhru4ysqqnvxpxnno33gu3wcjqmly/lab-Skeleton.png"
+}

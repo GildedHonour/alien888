@@ -1,0 +1,307 @@
+{
+  "ownedNfts": [
+    {
+      "contract": {
+        "address": "0x57463905727BCd51fc2E12392c989391671a3FFD",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x128c472a2980E4Ea2b2270CF353E4B6FbEf4C4Be",
+        "deployedBlockNumber": 31158165,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": null,
+          "safelistRequestStatus": null,
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "lastIngestedAt": null
+        },
+        "isSpam": null,
+        "spamClassifications": []
+      },
+      "tokenId": "1",
+      "tokenType": "ERC1155",
+      "name": null,
+      "description": null,
+      "image": {
+        "cachedUrl": null,
+        "thumbnailUrl": null,
+        "pngUrl": null,
+        "contentType": null,
+        "size": null,
+        "originalUrl": null
+      },
+      "raw": {
+        "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/1.json",
+        "metadata": "{\n  \"name\": \"Fast Food Cap #1\",\n  \"description\": \"Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it\",\n  \"image\": \"ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png\",\n  \"attributes\": [\n    {\n      \"trait_type\": \"parent_nft_relation\",\n      \"value\": \"background\"\n    },\n    {\n      \"trait_type\": \"Slot\",\n      \"value\": \"Wear\",\n    }\n  ]\n}",
+        "error": null
+      },
+      "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/1.json",
+      "timeLastUpdated": "2023-07-20T19:13:29.545Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0x57463905727BCd51fc2E12392c989391671a3FFD",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x128c472a2980E4Ea2b2270CF353E4B6FbEf4C4Be",
+        "deployedBlockNumber": 31158165,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": null,
+          "safelistRequestStatus": null,
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "lastIngestedAt": null
+        },
+        "isSpam": null,
+        "spamClassifications": []
+      },
+      "tokenId": "2",
+      "tokenType": "ERC1155",
+      "name": "Fast Food Cap #2",
+      "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/arb-goerli/e5f56d4c8109c43096abe03f8b5bce3e",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-goerli/e5f56d4c8109c43096abe03f8b5bce3e",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/arb-goerli/e5f56d4c8109c43096abe03f8b5bce3e",
+        "contentType": "image/png",
+        "size": 223072,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png"
+      },
+      "raw": {
+        "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/2.json",
+        "metadata": {
+          "name": "Fast Food Cap #2",
+          "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+          "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+          "attributes": [
+            {
+              "value": "background",
+              "trait_type": "parent_nft_relation"
+            },
+            {
+              "value": "Wear",
+              "trait_type": "Slot"
+            }
+          ]
+        },
+        "error": null
+      },
+      "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/2.json",
+      "timeLastUpdated": "2023-07-20T19:13:29.710Z",
+      "balance": "1",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0x57463905727BCd51fc2E12392c989391671a3FFD",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x128c472a2980E4Ea2b2270CF353E4B6FbEf4C4Be",
+        "deployedBlockNumber": 31158165,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": null,
+          "safelistRequestStatus": null,
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "lastIngestedAt": null
+        },
+        "isSpam": null,
+        "spamClassifications": []
+      },
+      "tokenId": "3",
+      "tokenType": "ERC1155",
+      "name": "Fast Food Cap #3",
+      "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/arb-goerli/b1d3651e86c0ee2edabbf8130a316a05",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-goerli/b1d3651e86c0ee2edabbf8130a316a05",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/arb-goerli/b1d3651e86c0ee2edabbf8130a316a05",
+        "contentType": "image/png",
+        "size": 223072,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png"
+      },
+      "raw": {
+        "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/3.json",
+        "metadata": {
+          "name": "Fast Food Cap #3",
+          "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+          "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+          "attributes": [
+            {
+              "value": "item_2",
+              "trait_type": "parent_nft_relation"
+            },
+            {
+              "value": "Wear",
+              "trait_type": "Slot"
+            }
+          ]
+        },
+        "error": null
+      },
+      "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/3.json",
+      "timeLastUpdated": "2023-07-20T19:13:29.679Z",
+      "balance": "5",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0x57463905727BCd51fc2E12392c989391671a3FFD",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x128c472a2980E4Ea2b2270CF353E4B6FbEf4C4Be",
+        "deployedBlockNumber": 31158165,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": null,
+          "safelistRequestStatus": null,
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "lastIngestedAt": null
+        },
+        "isSpam": null,
+        "spamClassifications": []
+      },
+      "tokenId": "4",
+      "tokenType": "ERC1155",
+      "name": "Fast Food Cap #4",
+      "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/arb-goerli/a40a885201a137de4e8e5e1ff17f9279",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-goerli/a40a885201a137de4e8e5e1ff17f9279",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/arb-goerli/a40a885201a137de4e8e5e1ff17f9279",
+        "contentType": "image/png",
+        "size": 223072,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png"
+      },
+      "raw": {
+        "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/4.json",
+        "metadata": {
+          "name": "Fast Food Cap #4",
+          "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+          "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+          "attributes": [
+            {
+              "value": "background",
+              "trait_type": "parent_nft_relation"
+            },
+            {
+              "value": "Wear",
+              "trait_type": "Slot"
+            }
+          ]
+        },
+        "error": null
+      },
+      "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/4.json",
+      "timeLastUpdated": "2023-07-20T19:13:29.624Z",
+      "balance": "8",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    },
+    {
+      "contract": {
+        "address": "0x57463905727BCd51fc2E12392c989391671a3FFD",
+        "name": null,
+        "symbol": null,
+        "totalSupply": null,
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x128c472a2980E4Ea2b2270CF353E4B6FbEf4C4Be",
+        "deployedBlockNumber": 31158165,
+        "openSeaMetadata": {
+          "floorPrice": null,
+          "collectionName": null,
+          "safelistRequestStatus": null,
+          "imageUrl": null,
+          "description": null,
+          "externalUrl": null,
+          "twitterUsername": null,
+          "discordUrl": null,
+          "lastIngestedAt": null
+        },
+        "isSpam": null,
+        "spamClassifications": []
+      },
+      "tokenId": "5",
+      "tokenType": "ERC1155",
+      "name": "Fast Food Cap #5",
+      "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/arb-goerli/d63c769b2291290d1dc977d0b18b40b1",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-goerli/d63c769b2291290d1dc977d0b18b40b1",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/arb-goerli/d63c769b2291290d1dc977d0b18b40b1",
+        "contentType": "image/png",
+        "size": 223072,
+        "originalUrl": "https://ipfs.io/ipfs/bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png"
+      },
+      "raw": {
+        "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/5.json",
+        "metadata": {
+          "name": "Fast Food Cap #5",
+          "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+          "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+          "attributes": [
+            {
+              "value": "item_2",
+              "trait_type": "parent_nft_relation"
+            },
+            {
+              "value": "Wear",
+              "trait_type": "Slot"
+            }
+          ]
+        },
+        "error": null
+      },
+      "tokenUri": "https://alien888.projects.incerteza.one/erc1155-tokens/5.json",
+      "timeLastUpdated": "2023-07-20T19:13:29.769Z",
+      "balance": "3",
+      "acquiredAt": {
+        "blockTimestamp": null,
+        "blockNumber": null
+      }
+    }
+  ],
+  "totalCount": 5,
+  "validAt": {
+    "blockNumber": 31229341,
+    "blockHash": "0xd90e3aea3225c52af9337600182ea6b3405c2849fb58de2fe876e7aa8a0a90e8",
+    "blockTimestamp": "2023-07-21T05:14:55Z"
+  },
+  "pageKey": null
+}

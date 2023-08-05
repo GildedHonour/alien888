@@ -1,0 +1,63 @@
+  yargs(hideBin(process.argv))
+    .command(
+      'add-wallet',
+      'Add wallet into the whitelist',
+      {
+        "token-id": {
+          demand: true,
+          desc: 'token id',
+          type: 'number',
+        },
+        "wallet-address": {
+          demand: true,
+          desc: 'wallet address',
+          type: 'string',
+        },
+      },
+      async (argv) => {
+        const tx = await contract.addIntoWhitelist(argv.tokenId, argv.walletAddress);
+        const receipt = tx.wait();
+
+        console.log(`ok; tx.hash: ${tx.hash}`);
+        console.log(`${JSON.stringify(receipt)}`);
+    })
+    .command(
+      'print',
+      'Print the whitelist for token',
+      (yargs) => {
+        yargs
+          .option('token-id', {
+            describe: 'Your named argument description here',
+            type: 'number',
+            demandOption: true,
+          });
+      },
+      async (argv) => {
+        console.log(`whitelist for token_id ${argv.tokenId}:`);
+        const res = await contract.getWhitelistFor(argv.tokenId);
+        console.log(res);
+    })
+    .command(
+      'remove-wallet',
+      'Remove from the whitelist a wallet for a token',
+      (yargs) => {
+        yargs.option('token-id', {
+          type: 'integer',
+          default: 1,
+          describe: 'token_id'
+        })
+        .option('wallet-address', {
+          type: 'string',
+          default: '',
+          describe: 'wallet address'
+        })
+      },
+      async (argv) => {
+        const tx = await contract.removeFromWhitelist(argv.tokenId, argv.walletAddress);
+        const receipt = await tx.wait();
+        console.log(`ok; tx.hash: ${tx.hash}`);
+    })
+    .demandCommand(1, 'You need to provide at least one command')
+    .help()
+    .alias('help', 'h')
+    .parse();

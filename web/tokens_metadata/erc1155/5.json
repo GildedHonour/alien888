@@ -1,0 +1,16 @@
+{
+  "name": "Fast Food Cap #5",
+  "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+  "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+  "parent_relation_trait": "item_2",
+  "attributes": [
+    {
+      "value": "We55ar",
+      "trait_type": "Sl555ot"
+    },
+    {
+      "key1": "jjjj",
+      "val1": "eee"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "alien888",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gilded_honour/alien888.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gilded_honour/alien888/issues"
+  },
+  "homepage": "https://gitlab.com/gilded_honour/alien888#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.16.0"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.51.2",
+    "@openzeppelin/contracts": "^4.9.0",
+    "@rari-capital/solmate": "^6.4.0",
+    "dotenv": "^16.1.3",
+    "npm": "^9.8.0"
+  }
+}

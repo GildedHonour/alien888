@@ -1,0 +1,1114 @@
+{
+  "nfts": [
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xc9",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Fast Food Cap",
+      "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreib7sfmoqtodaw7ju4ychhqjn2fdqibnixnm3fmzs6hqmbvseutqgm/metadata.json",
+        "raw": "ipfs://bafyreib7sfmoqtodaw7ju4ychhqjn2fdqibnixnm3fmzs6hqmbvseutqgm/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/aad7956af723401a454dec7fc2a744e4",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/aad7956af723401a454dec7fc2a744e4",
+          "raw": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+          "format": "png",
+          "bytes": 223072
+        }
+      ],
+      "metadata": {
+        "name": "Fast Food Cap",
+        "description": "Strap on the cap that ensures you the job security that you never wanted, it has a the magical powers to turn things around when you least expect it",
+        "image": "ipfs://bafybeiepkts5cfp2q4zewlvtwma25efklyquyhmwzmwbamfqig6pbzfve4/lab-201.png",
+        "attributes": [
+          {
+            "value": "Fast Food Cap",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2022-12-27T11:59:04.262Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+
+
+
+    
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xcb",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Santa Hat",
+      "description": "Jingle jingle all the way,\nHolly and mistletoe on display,\nSanta's hat is red and jolly,\nBrimming with gifts in galore and glory,\nHere's a surprise from him to thee\nMay your Christmas be joy-full for all to see!\n\nMerry Christmas Berries!",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreih2ue2wbq4nohrpmp67q47kosbvf2av3jduhqhizxudivsokbnjne/metadata.json",
+        "raw": "ipfs://bafyreih2ue2wbq4nohrpmp67q47kosbvf2av3jduhqhizxudivsokbnjne/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/fa79c044dcda5dc1a853c342cf879437",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/fa79c044dcda5dc1a853c342cf879437",
+          "raw": "ipfs://bafybeififgvnqxixv52b27ytlfj4nranedk52t6f4benett5qf6n5jisvi/lab-Santa%20Hat.png",
+          "format": "png",
+          "bytes": 262253
+        }
+      ],
+      "metadata": {
+        "name": "Santa Hat",
+        "description": "Jingle jingle all the way,\nHolly and mistletoe on display,\nSanta's hat is red and jolly,\nBrimming with gifts in galore and glory,\nHere's a surprise from him to thee\nMay your Christmas be joy-full for all to see!\n\nMerry Christmas Berries!",
+        "image": "ipfs://bafybeififgvnqxixv52b27ytlfj4nranedk52t6f4benett5qf6n5jisvi/lab-Santa%20Hat.png",
+        "attributes": [
+          {
+            "value": "Santa Hat",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2022-12-24T18:13:43.044Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xcf",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Lab Flask",
+      "description": "To celebrate the Blueberry Lab, we are offering this Lab Flask to those who have used the Blueberry Lab Testnet.",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafkreig5y7bc5osiirmcos5zo3t6n5xeqbzdgzw3xv2lt347xjghsa5ljy",
+        "raw": "ipfs://bafkreig5y7bc5osiirmcos5zo3t6n5xeqbzdgzw3xv2lt347xjghsa5ljy"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/9f73415bd5a92e25ae7bba58096e0287",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/9f73415bd5a92e25ae7bba58096e0287",
+          "raw": "ipfs://bafybeif3goen2gc5oisssvim257ksxqxbzr3tlo57guutlik2ggvsqbu7q/lab-207.png",
+          "format": "png",
+          "bytes": 271719
+        }
+      ],
+      "metadata": {
+        "name": "Lab Flask",
+        "description": "To celebrate the Blueberry Lab, we are offering this Lab Flask to those who have used the Blueberry Lab Testnet.",
+        "image": "ipfs://bafybeif3goen2gc5oisssvim257ksxqxbzr3tlo57guutlik2ggvsqbu7q/lab-207.png",
+        "attributes": [
+          {
+            "value": "Lab Flask",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-17T06:58:32.225Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd0",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "GLP Shirt",
+      "description": "The perfect shirt for chilling out while GLP gives you passive income. Free claim for the first Blueberry Lab Item",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafkreifaz23t7x7rgwojiowatwnj5z6j3zi4ztpjpgtm26n5pqsqu4gsse",
+        "raw": "ipfs://bafkreifaz23t7x7rgwojiowatwnj5z6j3zi4ztpjpgtm26n5pqsqu4gsse"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/7d218744f6080dea3a91901f38f5964b",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/7d218744f6080dea3a91901f38f5964b",
+          "raw": "ipfs://bafybeigj5ouuidnriglvvqhr3smmlk467hkhpze6u7dx5hkfrojbq63nla/lab-208.png",
+          "format": "png",
+          "bytes": 274184
+        }
+      ],
+      "metadata": {
+        "name": "GLP Shirt",
+        "description": "The perfect shirt for chilling out while GLP gives you passive income. Free claim for the first Blueberry Lab Item",
+        "image": "ipfs://bafybeigj5ouuidnriglvvqhr3smmlk467hkhpze6u7dx5hkfrojbq63nla/lab-208.png",
+        "attributes": [
+          {
+            "value": "GLP Shirt",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-11T10:06:36.742Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd1",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "GBC x Giorgio Balbi",
+      "description": "Abstract Generative Background by the Talented Giorgio Balbi.",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafkreicyzhjfp3msdjbdxfkpaa6frkjrgctszorfszbqxulshyfugmgd6m",
+        "raw": "ipfs://bafkreicyzhjfp3msdjbdxfkpaa6frkjrgctszorfszbqxulshyfugmgd6m"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/d70941f2ef3b84e2ec95b9b1aa808927",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/d70941f2ef3b84e2ec95b9b1aa808927",
+          "raw": "ipfs://bafybeig7dcmeutsapg3gzdzdyz4ikuq4wrlnx6udbneoyawypj3d347g2u/lab-209.png",
+          "format": "png",
+          "bytes": 777966
+        }
+      ],
+      "metadata": {
+        "name": "GBC x Giorgio Balbi",
+        "description": "Abstract Generative Background by the Talented Giorgio Balbi.",
+        "image": "ipfs://bafybeig7dcmeutsapg3gzdzdyz4ikuq4wrlnx6udbneoyawypj3d347g2u/lab-209.png",
+        "attributes": [
+          {
+            "value": "Lab Flask",
+            "trait_type": "Background"
+          },
+          {
+            "value": "Background",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-27T13:00:56.901Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+
+
+
+
+
+
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd2",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "GBC x Wine bottle Club",
+      "description": "For all members present at the Wine Bottle Club x GBC event in Bordeaux",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreifnhzkwos6oiwsjwj7rg53srewmk7hoirhtihp2lxrxin5v6r3bgq/metadata.json",
+        "raw": "ipfs://bafyreifnhzkwos6oiwsjwj7rg53srewmk7hoirhtihp2lxrxin5v6r3bgq/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/9c53a9c4d7b0d79c7e1d964b9ef7cddd",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/9c53a9c4d7b0d79c7e1d964b9ef7cddd",
+          "raw": "ipfs://bafybeie3cz2675anwffhlhfra6f6xkd5wqwulfprxyynim5feniuge7wxu/lab-210.png",
+          "format": "png",
+          "bytes": 232464
+        }
+      ],
+      "metadata": {
+        "name": "GBC x Wine bottle Club",
+        "description": "For all members present at the Wine Bottle Club x GBC event in Bordeaux",
+        "image": "ipfs://bafybeie3cz2675anwffhlhfra6f6xkd5wqwulfprxyynim5feniuge7wxu/lab-210.png",
+        "attributes": [
+          {
+            "value": "GBC x Wine bottle Club",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-27T13:00:57.100Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd3",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Summer Buoy",
+      "description": "The perfect accessory for summer time",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreicwtoedi5xd5uou3o6ffxtapoucxu2tt7bg7srljtok3lid2c7ch4/metadata.json",
+        "raw": "ipfs://bafyreicwtoedi5xd5uou3o6ffxtapoucxu2tt7bg7srljtok3lid2c7ch4/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/23067dbaad8a98a2c66da60150b4a82b",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/23067dbaad8a98a2c66da60150b4a82b",
+          "raw": "ipfs://bafybeidynuqfcaqhrmzgdqa2jwb6iy67pgb62u5ge4lypco2im4hvkrele/lab-211.png",
+          "format": "png",
+          "bytes": 291814
+        }
+      ],
+      "metadata": {
+        "name": "Summer Buoy",
+        "description": "The perfect accessory for summer time",
+        "image": "ipfs://bafybeidynuqfcaqhrmzgdqa2jwb6iy67pgb62u5ge4lypco2im4hvkrele/lab-211.png",
+        "attributes": [
+          {
+            "value": "Summer Buoy",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-04-17T10:09:04.549Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd4",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Noodles",
+      "description": "Put these soggy little wiggles in your mouth and imagine how amazing the taste of success will make u feel. Slurping up crypto and letting it become one within. You need these noodles thriving in your little bustard body when you extract pure blueberry gold in the next bull run! Time to shine little berry, time to shine.",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreifg3ciyjtpvi54lbpvn72bcsvzhldphodvnr5rljmv4wawwvqcuia/metadata.json",
+        "raw": "ipfs://bafyreifg3ciyjtpvi54lbpvn72bcsvzhldphodvnr5rljmv4wawwvqcuia/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/1f67d6f3ec5891036ff72a51e9fcea63",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/1f67d6f3ec5891036ff72a51e9fcea63",
+          "raw": "ipfs://bafybeihjclsxfj5gkocb6rsfoq2acwjthft5ydsdpj4fxsz5fr5vzc3luq/lab-Noodles.png",
+          "format": "png",
+          "bytes": 248601
+        }
+      ],
+      "metadata": {
+        "name": "Noodles",
+        "description": "Put these soggy little wiggles in your mouth and imagine how amazing the taste of success will make u feel. Slurping up crypto and letting it become one within. You need these noodles thriving in your little bustard body when you extract pure blueberry gold in the next bull run! Time to shine little berry, time to shine.",
+        "image": "ipfs://bafybeihjclsxfj5gkocb6rsfoq2acwjthft5ydsdpj4fxsz5fr5vzc3luq/lab-Noodles.png",
+        "attributes": [
+          {
+            "value": "Noodles",
+            "trait_type": "Face Accessory"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-21T16:01:33.324Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd5",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Smoky",
+      "description": "Elevation of my elation from my botanical cultivation brings about my intellectual stimulation. Lighters up berries, it's the GMX generation",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreiest4u527wrled2uwjrqz5maxyma2widww3ypvv7di7t62mrn57zi/metadata.json",
+        "raw": "ipfs://bafyreiest4u527wrled2uwjrqz5maxyma2widww3ypvv7di7t62mrn57zi/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/a7116b3763790eb08b6b815ebeecd469",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/a7116b3763790eb08b6b815ebeecd469",
+          "raw": "ipfs://bafybeidxx4sfywe3ib44ha7re7vxinnro7l5gk22l27ejbj7wix7ipy3ky/lab-Smoky.png",
+          "format": "png",
+          "bytes": 243936
+        }
+      ],
+      "metadata": {
+        "name": "Smoky",
+        "description": "Elevation of my elation from my botanical cultivation brings about my intellectual stimulation. Lighters up berries, it's the GMX generation",
+        "image": "ipfs://bafybeidxx4sfywe3ib44ha7re7vxinnro7l5gk22l27ejbj7wix7ipy3ky/lab-Smoky.png",
+        "attributes": [
+          {
+            "value": "Smoky",
+            "trait_type": "Expression"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-17T03:47:44.467Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd6",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Juicy Head",
+      "description": "Some do six packs to wise cracks instead I’m drinking my blueberry juice packs while I  kickback preparing for the GMX counter attack!",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreihpyx4r3z52nta6wd5f2dch5uteewftjkevh7bnws7lflan3vjzeq/metadata.json",
+        "raw": "ipfs://bafyreihpyx4r3z52nta6wd5f2dch5uteewftjkevh7bnws7lflan3vjzeq/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/98dc670b1a78bde25e1e01bb0a586453",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/98dc670b1a78bde25e1e01bb0a586453",
+          "raw": "ipfs://bafybeiehl5odlc3knawylgwb3azg5jhjhn2sq5pijj7pl4y5pvag256xiu/lab-214.png",
+          "format": "png",
+          "bytes": 241902
+        }
+      ],
+      "metadata": {
+        "name": "Juicy Head",
+        "description": "Some do six packs to wise cracks instead I’m drinking my blueberry juice packs while I  kickback preparing for the GMX counter attack!",
+        "image": "ipfs://bafybeiehl5odlc3knawylgwb3azg5jhjhn2sq5pijj7pl4y5pvag256xiu/lab-214.png",
+        "attributes": [
+          {
+            "value": "Juicy Head",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-19T14:40:05.704Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd7",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Ultra-Sound BLAT",
+      "description": "Unlike the common bat this unique BLAT ( blueberry bat ) is using his blueberry sonar to navigate the merge. Watch as these honed fangs suck dry any Trad-Fi.",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreifdxb73y4upw2pkd7g45xtcdzdwougicoiisecfmdtqkzqrdyc24u/metadata.json",
+        "raw": "ipfs://bafyreifdxb73y4upw2pkd7g45xtcdzdwougicoiisecfmdtqkzqrdyc24u/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/2156dbd7095b9f1b89f00828e6eb2fe4",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/2156dbd7095b9f1b89f00828e6eb2fe4",
+          "raw": "ipfs://bafybeidppzgjlsdatz5q3zyrvinx5zhz667lmvawmwfldfikfdlzju3xe4/lab-Ultra-Sound%20BLAT.png",
+          "format": "png",
+          "bytes": 336870
+        }
+      ],
+      "metadata": {
+        "name": "Ultra-Sound BLAT",
+        "description": "Unlike the common bat this unique BLAT ( blueberry bat ) is using his blueberry sonar to navigate the merge. Watch as these honed fangs suck dry any Trad-Fi.",
+        "image": "ipfs://bafybeidppzgjlsdatz5q3zyrvinx5zhz667lmvawmwfldfikfdlzju3xe4/lab-Ultra-Sound%20BLAT.png",
+        "attributes": [
+          {
+            "value": "Ultra-Sound BLAT",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-10T08:53:31.317Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd8",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Holographic",
+      "description": "GBC goes to NFT Paris\n« This item includes additional minter(ONLY) benefits » \n\nThe NFT Paris is an event that will gather Builders, Artists, Curators, Brand, Collectors & Biggest NFT Collections. It will take place on February 24-25th, 2023 near the Eiffeil Tower in Paris. \n\nBy minting this item, you will be able to attend this conference, discover new projects, meet other Berries and much more 🫐👀\n\nFore more details check our see discord discussions and even help us improve this experience\n",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreia74vzu6srkmjqpbjgjaryrh6nrilqilv5mggykj3d2s66qotsuiu/metadata.json",
+        "raw": "ipfs://bafyreia74vzu6srkmjqpbjgjaryrh6nrilqilv5mggykj3d2s66qotsuiu/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/c2c7fc65bdf6a152b393fe2d6b045493",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/c2c7fc65bdf6a152b393fe2d6b045493",
+          "raw": "ipfs://bafybeibp2ghgdkedh3waow4ycceig5nvujxounu5ybcmkqi7gg3p5webj4/lab-Holographic.png",
+          "format": "png",
+          "bytes": 1541983
+        }
+      ],
+      "metadata": {
+        "name": "Holographic",
+        "description": "GBC goes to NFT Paris\n« This item includes additional minter(ONLY) benefits » \n\nThe NFT Paris is an event that will gather Builders, Artists, Curators, Brand, Collectors & Biggest NFT Collections. It will take place on February 24-25th, 2023 near the Eiffeil Tower in Paris. \n\nBy minting this item, you will be able to attend this conference, discover new projects, meet other Berries and much more 🫐👀\n\nFore more details check our see discord discussions and even help us improve this experience\n",
+        "image": "ipfs://bafybeibp2ghgdkedh3waow4ycceig5nvujxounu5ybcmkqi7gg3p5webj4/lab-Holographic.png",
+        "attributes": [
+          {
+            "value": "Holographic",
+            "trait_type": "Background"
+          },
+          {
+            "value": "Background",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-28T08:17:42.854Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xd9",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "GBC x Mithical",
+      "description": "NFT Berrification from across the nation, putting together with our friends from the depths of imagination a mythical collaboration. To the crypto world I vie, your NFT will amplify when we Berrify the Samurai!",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreiapjbbkvm5uzsmphmrp6bajvxdb4xk6tdnpw3r7qb6bhhiejvamwy/metadata.json",
+        "raw": "ipfs://bafyreiapjbbkvm5uzsmphmrp6bajvxdb4xk6tdnpw3r7qb6bhhiejvamwy/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/ad4a152b30a8a6e94ea16d1daf40c564",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/ad4a152b30a8a6e94ea16d1daf40c564",
+          "raw": "ipfs://bafybeih2prgmpx3qcskfhvg7xa6nlf2b752fwcnhjlmmfzigiawxst54tu/lab-GBC%20x%20Mithical.png",
+          "format": "png",
+          "bytes": 342731
+        }
+      ],
+      "metadata": {
+        "name": "GBC x Mithical",
+        "description": "NFT Berrification from across the nation, putting together with our friends from the depths of imagination a mythical collaboration. To the crypto world I vie, your NFT will amplify when we Berrify the Samurai!",
+        "image": "ipfs://bafybeih2prgmpx3qcskfhvg7xa6nlf2b752fwcnhjlmmfzigiawxst54tu/lab-GBC%20x%20Mithical.png",
+        "attributes": [
+          {
+            "value": "GBC x Mithical",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-01-17T03:47:44.296Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xda",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Scary Night",
+      "description": "Ghosts, ghouls & goblins are giving you a fright, while vampires & zombies can’t wait to take a bite. For Halloween there will be plenty of candy for all your delight, so don’t be afraid and have a BERRY spooky night!",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreiheba3apgvkhfpa5fium54bglrstv5patoa7wl37dyztkd5zowz2u/metadata.json",
+        "raw": "ipfs://bafyreiheba3apgvkhfpa5fium54bglrstv5patoa7wl37dyztkd5zowz2u/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/7aa5b382351c06d2a1291ba948174a25",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/7aa5b382351c06d2a1291ba948174a25",
+          "raw": "ipfs://bafybeibjxajpw4jswd4lyyny2iebge3cv5gq4fbq4spwkfhavvmgpgxeky/lab-Scary%20Night.png",
+          "format": "png",
+          "bytes": 596821
+        }
+      ],
+      "metadata": {
+        "name": "Scary Night",
+        "description": "Ghosts, ghouls & goblins are giving you a fright, while vampires & zombies can’t wait to take a bite. For Halloween there will be plenty of candy for all your delight, so don’t be afraid and have a BERRY spooky night!",
+        "image": "ipfs://bafybeibjxajpw4jswd4lyyny2iebge3cv5gq4fbq4spwkfhavvmgpgxeky/lab-Scary%20Night.png",
+        "attributes": [
+          {
+            "value": "Scary Night",
+            "trait_type": "Background"
+          },
+          {
+            "value": "Background",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-03-23T08:51:05.213Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xdb",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Skeleton",
+      "description": "Frankenstein and Dracula have nothing on Bloody Mary, although all these Classics are definitely scary. Here’s some thing from GBC for you it’s a real gusher, please let me introduce to you the infamous Mr. BoneCrusher!",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreihls2svemk3cjys6m2osdyydygj4wrd6fhcmuil7gkwnny4xptz4m/metadata.json",
+        "raw": "ipfs://bafyreihls2svemk3cjys6m2osdyydygj4wrd6fhcmuil7gkwnny4xptz4m/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/7112f092071e83069ab4d70b1f0f0a77",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/7112f092071e83069ab4d70b1f0f0a77",
+          "raw": "ipfs://bafybeie5s557pnamxuuq6o6yilb2nzhru4ysqqnvxpxnno33gu3wcjqmly/lab-Skeleton.png",
+          "format": "png",
+          "bytes": 223240
+        }
+      ],
+      "metadata": {
+        "name": "Skeleton",
+        "description": "Frankenstein and Dracula have nothing on Bloody Mary, although all these Classics are definitely scary. Here’s some thing from GBC for you it’s a real gusher, please let me introduce to you the infamous Mr. BoneCrusher!",
+        "image": "ipfs://bafybeie5s557pnamxuuq6o6yilb2nzhru4ysqqnvxpxnno33gu3wcjqmly/lab-Skeleton.png",
+        "attributes": [
+          {
+            "value": "Skeleton",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-03-23T08:51:15.782Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xdc",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Birthday Hat",
+      "description": "Happy birthday, dear blueberry\ntoday, we celebrate you, that's the goal\n\nBlueberries are sweet and oh so good\nIn smoothies, cakes, or just eaten plain\nSo let's celebrate your special day\nWith some tasty treats, and maybe a little champagne\n\nHere's to another year of growth\nMay you continue to be ripe and juicy, no one can doth\nHappy birthday, little blueberry friend\nWe're glad you're here, let the celebrations never end!",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreicw22tdjmazu7zv6h25wetsz5f6lopvqni35ejh6j5aiizsjvtiom/metadata.json",
+        "raw": "ipfs://bafyreicw22tdjmazu7zv6h25wetsz5f6lopvqni35ejh6j5aiizsjvtiom/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/79ea64301647a296107dddb6214304bd",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/79ea64301647a296107dddb6214304bd",
+          "raw": "ipfs://bafybeidhsdry4ptdbyfg4l4lhlyzkvkugqvzoywzblrpkipuuhdxx5mtyu/lab-Birthday%20Hat.png",
+          "format": "png",
+          "bytes": 249807
+        }
+      ],
+      "metadata": {
+        "name": "Birthday Hat",
+        "description": "Happy birthday, dear blueberry\ntoday, we celebrate you, that's the goal\n\nBlueberries are sweet and oh so good\nIn smoothies, cakes, or just eaten plain\nSo let's celebrate your special day\nWith some tasty treats, and maybe a little champagne\n\nHere's to another year of growth\nMay you continue to be ripe and juicy, no one can doth\nHappy birthday, little blueberry friend\nWe're glad you're here, let the celebrations never end!",
+        "image": "ipfs://bafybeidhsdry4ptdbyfg4l4lhlyzkvkugqvzoywzblrpkipuuhdxx5mtyu/lab-Birthday%20Hat.png",
+        "attributes": [
+          {
+            "value": "Birthday Hat",
+            "trait_type": "Hat"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-05-13T17:58:14.405Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xdd",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Marine Shirt",
+      "description": "To the berry who set forth on a journey that is new,\nTo find friends by his side, with hearts full of blue.\nHe sailed the vast seas, with a spirit so bold,\nSearching for a new land, where his fortune could unfold.\n\nThrough storms and rough waters, he pressed on with might,\nA new frontier land, was his sole guiding light.\nWith each passing day, his determination grew,\nFor the opportunities that lay ahead, he knew.\n\nHe met new friends, on this journey so grand,\nTogether they explored, the uncharted land.\nWith each step they took, their spirits soared high,\nFor they knew that this journey, was worth every sight.\n\nThe sailors returned, with tales of his quest,\nOf the new frontier land, that was truly the best.\nWith a heart full of hope, and a mind full of dreams,\nHe knew that this journey, was just the beginning it seems.",
+      "tokenUri": {
+        "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreihwgnhxonscmgxulqzqjo44fdvud3hzh6mphyvlqn2tuaqxxjaoty/metadata.json",
+        "raw": "ipfs://bafyreihwgnhxonscmgxulqzqjo44fdvud3hzh6mphyvlqn2tuaqxxjaoty/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/65412fa105611634acad4fe3ecaaaee5",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/65412fa105611634acad4fe3ecaaaee5",
+          "raw": "ipfs://bafybeiaifaci7an4wlzsufzsmxqqxo4rru4cuzfvs4iqltzt77f7joxtjq/lab-Marine%20Shirt.png",
+          "format": "png",
+          "bytes": 200444
+        }
+      ],
+      "metadata": {
+        "name": "Marine Shirt",
+        "description": "To the berry who set forth on a journey that is new,\nTo find friends by his side, with hearts full of blue.\nHe sailed the vast seas, with a spirit so bold,\nSearching for a new land, where his fortune could unfold.\n\nThrough storms and rough waters, he pressed on with might,\nA new frontier land, was his sole guiding light.\nWith each passing day, his determination grew,\nFor the opportunities that lay ahead, he knew.\n\nHe met new friends, on this journey so grand,\nTogether they explored, the uncharted land.\nWith each step they took, their spirits soared high,\nFor they knew that this journey, was worth every sight.\n\nThe sailors returned, with tales of his quest,\nOf the new frontier land, that was truly the best.\nWith a heart full of hope, and a mind full of dreams,\nHe knew that this journey, was just the beginning it seems.",
+        "image": "ipfs://bafybeiaifaci7an4wlzsufzsmxqqxo4rru4cuzfvs4iqltzt77f7joxtjq/lab-Marine%20Shirt.png",
+        "attributes": [
+          {
+            "value": "Marine Shirt",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-27T13:07:49.401Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xde",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Giving Love",
+      "description": "Roses are red, violets are blue,\nGathered here together, me and you.\n\nWe'll drink a fine wine, celebrate green lines,\nAnd dance to the beat till our hearts combine.\n\nLet's raise a glass, to friendship so true,\nAnd celebrate the love, that holds true.\n\nSo here's to us, and a night full of cheer,\nMay our bonds always be something, blue and dear.",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreianuxyk5bnzs4dkfpdmb2cbh6xp7hrxv42bmiakpoxs6vdw4vmqai/metadata.json",
+        "raw": "ipfs://bafyreianuxyk5bnzs4dkfpdmb2cbh6xp7hrxv42bmiakpoxs6vdw4vmqai/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/341a8c196694d165685dad99dee59eb7",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/341a8c196694d165685dad99dee59eb7",
+          "raw": "ipfs://bafybeiaixjw47nhlnq6rfizxbyggoxnhgfxzlbd5n2ye7mryhwul2tbcoi/lab-Giving%20Love.png",
+          "format": "png",
+          "bytes": 247501
+        }
+      ],
+      "metadata": {
+        "name": "Giving Love",
+        "description": "Roses are red, violets are blue,\nGathered here together, me and you.\n\nWe'll drink a fine wine, celebrate green lines,\nAnd dance to the beat till our hearts combine.\n\nLet's raise a glass, to friendship so true,\nAnd celebrate the love, that holds true.\n\nSo here's to us, and a night full of cheer,\nMay our bonds always be something, blue and dear.",
+        "image": "ipfs://bafybeiaixjw47nhlnq6rfizxbyggoxnhgfxzlbd5n2ye7mryhwul2tbcoi/lab-Giving%20Love.png",
+        "attributes": [
+          {
+            "value": "Giving Love",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-02-14T18:00:23.499Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xe0",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Arbitrum Swag",
+      "description": "In the land of blockchain, where DAOs come to play,\nOur GMX Blueberry Club was overlooked one day.\nEligibility criteria met, has ERC-721 led astray?\nNow we reach out to Arbitrum, with a hopeful plea to sway.\n\nOh, dear Arbitrum, can't you see?\nOur DAO, it longs to join your spree.\nWith our platform, ecosystem, and financial flywheel,\nERC-721's our choice, but it shouldn't be a big deal.\n\nA story unfolds, of triumph and cheer,\nAs GBC and Arbitrum draw ever so near.\nSo, join us in laughter, song, and glee,\nFor together we'll write a grand history.\n\nWe'll wait with bated breath, hopes held high,\nFor the moment we unite and reach the sky.\nHand in hand, a new path we'll steer,\nWith GBC and Arbitrum, an alliance most dear!",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreibppx5p3adjuf7qwi4ikggcvzryewceaq3abcqbl5gilb746urkem/metadata.json",
+        "raw": "ipfs://bafyreibppx5p3adjuf7qwi4ikggcvzryewceaq3abcqbl5gilb746urkem/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/917330b65394f85468fe76c8a6ebe4c9",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/917330b65394f85468fe76c8a6ebe4c9",
+          "raw": "ipfs://bafybeihmcrppfnazbufol62nykqomc4fxkalbg2bu6p62p67aqjvctn3zu/lab-Arbitrum%20Swag.png",
+          "format": "png",
+          "bytes": 91142
+        }
+      ],
+      "metadata": {
+        "name": "Arbitrum Swag",
+        "description": "In the land of blockchain, where DAOs come to play,\nOur GMX Blueberry Club was overlooked one day.\nEligibility criteria met, has ERC-721 led astray?\nNow we reach out to Arbitrum, with a hopeful plea to sway.\n\nOh, dear Arbitrum, can't you see?\nOur DAO, it longs to join your spree.\nWith our platform, ecosystem, and financial flywheel,\nERC-721's our choice, but it shouldn't be a big deal.\n\nA story unfolds, of triumph and cheer,\nAs GBC and Arbitrum draw ever so near.\nSo, join us in laughter, song, and glee,\nFor together we'll write a grand history.\n\nWe'll wait with bated breath, hopes held high,\nFor the moment we unite and reach the sky.\nHand in hand, a new path we'll steer,\nWith GBC and Arbitrum, an alliance most dear!",
+        "image": "ipfs://bafybeihmcrppfnazbufol62nykqomc4fxkalbg2bu6p62p67aqjvctn3zu/lab-Arbitrum%20Swag.png",
+        "attributes": [
+          {
+            "value": "Arbitrum Swag",
+            "trait_type": "Clothes"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-03-28T14:57:44.006Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xe1",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Holographic Badge",
+      "description": "In supersonic realms, a gift bestowed,\n  A holographic badge, its secrets sowed.\n  Electrons dance, a cosmic waltz they weave,\n  To holders of this emblem, more they shall receive.\n\n  A digital enigma, a story untold,\n  A badge of light, its mysteries unfold.\n  With whispered rhymes of galaxies afar,\n  The sky's sweet secrets, a cosmic avatar.\n\n  From astral heights, the gifts cascade,\n  To bearers of this spectral serenade.\n  The heavens part, celestial surprise,\n  For those who wear this badge, the skies apprise.",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreihv2mn5smave33huulpsb242wl73f2bxa6kswvef56kd4tab3dqfi/metadata.json",
+        "raw": "ipfs://bafyreihv2mn5smave33huulpsb242wl73f2bxa6kswvef56kd4tab3dqfi/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/9f84f42d3b582ae5d9e20aae15938a2a",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/9f84f42d3b582ae5d9e20aae15938a2a",
+          "raw": "ipfs://bafybeiagrtyd7xgal3gpmijysz5tevso3lljccifuivezlajzetu7gtuq4/lab-Holographic%20Badge.png",
+          "format": "png",
+          "bytes": 68131
+        }
+      ],
+      "metadata": {
+        "name": "Holographic Badge",
+        "description": "In supersonic realms, a gift bestowed,\n  A holographic badge, its secrets sowed.\n  Electrons dance, a cosmic waltz they weave,\n  To holders of this emblem, more they shall receive.\n\n  A digital enigma, a story untold,\n  A badge of light, its mysteries unfold.\n  With whispered rhymes of galaxies afar,\n  The sky's sweet secrets, a cosmic avatar.\n\n  From astral heights, the gifts cascade,\n  To bearers of this spectral serenade.\n  The heavens part, celestial surprise,\n  For those who wear this badge, the skies apprise.",
+        "image": "ipfs://bafybeiagrtyd7xgal3gpmijysz5tevso3lljccifuivezlajzetu7gtuq4/lab-Holographic%20Badge.png",
+        "attributes": [
+          {
+            "value": "Holographic Badge"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-04-12T08:47:36.662Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xe3",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "NFT Paris Bandana",
+      "description": "In the city of light,\nNFTs bloomed, a digital sight.\nPixels danced, colors swirled,\nA new revolution unfurled.\n\nArtists mingled, traders roamed,\nIn this vibrant, virtual home.\nBoundaries blurred, ideas soared,\nThe NFT realm, globally adored.",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreibkkwyuyndbv25vpbzkjdzgjkp7emuvy4kvcng5kjfjhws4odb5cm/metadata.json",
+        "raw": "ipfs://bafyreibkkwyuyndbv25vpbzkjdzgjkp7emuvy4kvcng5kjfjhws4odb5cm/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/059c0e2b1ec4e910e55f0b04a4872ab3",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/059c0e2b1ec4e910e55f0b04a4872ab3",
+          "raw": "ipfs://bafybeidjztza2djwhoq6avcdw5jy7gp5a4tffhvn6xhoqtvlmeqv6vfr3a/lab-NFT%20Paris%20Bandana.png",
+          "format": "png",
+          "bytes": 87134
+        }
+      ],
+      "metadata": {
+        "name": "NFT Paris Bandana",
+        "description": "In the city of light,\nNFTs bloomed, a digital sight.\nPixels danced, colors swirled,\nA new revolution unfurled.\n\nArtists mingled, traders roamed,\nIn this vibrant, virtual home.\nBoundaries blurred, ideas soared,\nThe NFT realm, globally adored.",
+        "image": "ipfs://bafybeidjztza2djwhoq6avcdw5jy7gp5a4tffhvn6xhoqtvlmeqv6vfr3a/lab-NFT%20Paris%20Bandana.png",
+        "attributes": [
+          {
+            "value": "NFT Paris Bandana",
+            "trait_type": "Face Accessory"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-03-30T18:27:17.438Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xe4",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "Blueberry Fly",
+      "description": "In azure skies, a blueberry fly,\nA vibrant speck, my journey's ally.\nWith gossamer wings, so deft and spry,\nA nimble dance, our spirits high.\n\nThrough verdant fields and forests deep,\nWe soar as one, no course to keep.\nA bond unspoken, yet profound,\nIn nature's rhythm, our hearts resound.\n\nOh blueberry fly, my cherished friend,\nIn tandem flight, our souls ascend.\nAn odyssey shared, of dreams and skies,\nBound by adventure, where freedom lies.",
+      "tokenUri": {
+        "gateway": "https://ipfs.io/ipfs/bafyreiamb762q3mio6c26y6rinw67odtw36rcmt3qveemu7mxe53ipivji/metadata.json",
+        "raw": "ipfs://bafyreiamb762q3mio6c26y6rinw67odtw36rcmt3qveemu7mxe53ipivji/metadata.json"
+      },
+      "media": [
+        {
+          "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/ef66cbc1b458b84b8701aa8d410774c0",
+          "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/ef66cbc1b458b84b8701aa8d410774c0",
+          "raw": "ipfs://bafybeidi74cng4irkahkp5seflktsgndxkrr6o65fz5oyko5w2mzxnvgc4/lab-Blueberry%20Fly.png",
+          "format": "png",
+          "bytes": 80898
+        }
+      ],
+      "metadata": {
+        "name": "Blueberry Fly",
+        "description": "In azure skies, a blueberry fly,\nA vibrant speck, my journey's ally.\nWith gossamer wings, so deft and spry,\nA nimble dance, our spirits high.\n\nThrough verdant fields and forests deep,\nWe soar as one, no course to keep.\nA bond unspoken, yet profound,\nIn nature's rhythm, our hearts resound.\n\nOh blueberry fly, my cherished friend,\nIn tandem flight, our souls ascend.\nAn odyssey shared, of dreams and skies,\nBound by adventure, where freedom lies.",
+        "image": "ipfs://bafybeidi74cng4irkahkp5seflktsgndxkrr6o65fz5oyko5w2mzxnvgc4/lab-Blueberry%20Fly.png",
+        "attributes": [
+          {
+            "value": "Blueberry Fly"
+          },
+          {
+            "value": "Wear",
+            "trait_type": "Slot"
+          }
+        ]
+      },
+      "timeLastUpdated": "2023-04-12T04:48:40.256Z",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    },
+    {
+      "contract": {
+        "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+      },
+      "id": {
+        "tokenId": "0xe5",
+        "tokenMetadata": {
+          "tokenType": "ERC1155"
+        }
+      },
+      "title": "",
+      "description": "",
+      "tokenUri": {
+        "gateway": "",
+        "raw": ""
+      },
+      "media": [
+        {
+          "gateway": "",
+          "raw": ""
+        }
+      ],
+      "metadata": {
+        "metadata": [],
+        "attributes": []
+      },
+      "timeLastUpdated": "2023-07-02T17:35:49.501Z",
+      "error": "Malformed token uri, do not retry",
+      "contractMetadata": {
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+        "deployedBlockNumber": 13910680,
+        "openSea": {}
+      }
+    }
+  ]
+}

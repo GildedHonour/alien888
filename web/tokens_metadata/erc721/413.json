@@ -1,0 +1,30 @@
+{
+    "name": "888 ALIEN #413",
+    "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/413.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Scales"
+        },
+        {
+            "trait_type": "Clothes",
+            "value": "Oni’s Slayer"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Disheveled"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Saint Laurent"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Small Astonishment"
+        }
+    ]
+}

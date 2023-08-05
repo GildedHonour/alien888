@@ -1,0 +1,531 @@
+{{ define "pre_content" }}
+<div class="overlay">
+  <div class="modal">
+    <button class="modal-close">
+      <svg
+        width="11"
+        height="11"
+        viewBox="0 0 11 11"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 1L1 10M1 1L10 10"
+          stroke="#fff"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <h2>Congrats!</h2>
+    <p>
+      You have successfully attached the attributes to your alien. Now you
+      can set this alien for the PFP on the website or download it to use
+      elsewhere.
+    </p>
+  </div>
+</div>
+{{ end }}
+
+{{ define "content" }}
+<div
+  id="frame"
+  class="frame relative z-10 mx-auto w-full max-w-[1130px] pb-[130px] pl-[10px] pr-[10px] pt-[140px] tablet:pb-[70px] sm:pt-[110px]"
+>
+  <!-- top dropdown -->
+  <div
+    class="flex w-full max-w-[543px] items-center gap-[10px] space-x-6 tablet:mx-auto xs:space-x-0"
+  >
+    <div class="item-dropdown relative z-20 w-full">
+
+      {{ if .Data.MainNftCollectionHasElements }}
+
+      <button
+        data-name="{{ .Data.SelectedMainNft.Title }}"
+        class="item-drop-btn-main flex w-full items-center justify-between rounded-lg border-2 border-white px-5 py-[17px]"
+      >
+        <p
+          class="font-nexabold text-[14px] font-bold leading-none text-white"
+        >
+          {{ .Data.SelectedMainNft.Title }}
+        </p>
+        <svg
+          width="11"
+          height="8"
+          viewBox="0 0 11 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.56209 0.500903L5.66948 4.39351L1.76282 0.500903L0.469971 1.79375L5.65543 7.24622L10.8549 1.79375L9.56209 0.500903Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+      {{ end }}
+
+      <div
+        class="item-drop-menu absolute left-0 top-full hidden w-full"
+      >
+        {{ range $idx, $item := .Data.MainNftCollection }}
+        <!-- one item -->
+        <div
+          data-id="{{ $item.TokenID }}"
+          data-alien="{{ $item.Thumbnail }}"
+          class="item-whitelist flex items-center border-b-2 border-[#2F363D] bg-[#171B1F] p-[10px]"
+        >
+          <img
+            src="{{ $item.Thumbnail }}"
+            alt="items"
+            class="mr-[10px] h-[50px] w-[50] rounded-lg"
+          />
+          <div>
+            <p
+              data-name="{{ $item.Title }}"
+              class="uppercase mb-1 font-nexabold text-xs font-bold text-white"
+            >
+              {{ $item.Title }}
+            </p>
+<!-- 
+            <a
+              href="/whitelist"
+              class="rounded-md border-[1px] border-white p-2 font-nexabold text-[10px] leading-none text-white"
+            >
+              WhiteList (TODO)
+            </a>
+ -->
+          </div>
+        </div>
+        {{ end }}
+
+      </div>
+    </div>
+
+    {{ if .Data.MainNftCollectionHasElements }}
+    <button
+      v-on:click="setPFP()"
+      class="text-blackborder-2 h-full w-full max-w-[165px] rounded-lg border-white bg-white px-[17px] py-[19px] font-nexabold text-[14px] leading-none xs:max-w-[94px]"
+    >
+      Set PFP
+    </button>
+    {{ end }}
+
+  </div>
+  <!-- content -->
+  <div
+    class="mt-6 flex h-full min-h-[543px] justify-between space-x-6 tablet:flex-col tablet:items-center tablet:gap-[80px] tablet:space-x-0"
+  >
+
+    <!-- main img -->
+    {{ if .Data.MainNftCollectionHasElements }}
+
+    <div
+      id="main-img"
+      class="relative mb-auto h-full w-full max-w-[543px]"
+    >
+      <div
+        id="capture"
+        class="relative h-full min-h-[543px] w-full max-w-[543px] overflow-hidden rounded-[30px]"
+      >
+
+        <img
+          id="alien"
+          data-id="{{ $.Data.SelectedMainNft.TokenID }}"
+          class="absolute left-0 top-0 z-[4] h-full w-full object-cover"
+          src="{{ .Data.SelectedMainNftTransparentThumbnail }}"
+          alt=""
+        />
+
+        <img
+          id="background"
+          data-id="0"
+          class="absolute left-0 top-0 z-[1] h-full w-full object-cover"
+
+          {{ if $bgItem := .Data.SelectedSecondaryNftForBackround }}
+            src="{{ $bgItem.Thumbnail }}"
+          {{ else }}
+            src="./assets/img/green-bg.png"
+          {{ end }}
+
+          alt="background item"
+        />
+
+        <img
+          id="item1"
+          data-id="0"
+          class="z-5 absolute left-0 top-0 h-full w-full object-cover"
+
+          {{ if $item1 := .Data.SelectedSecondaryNftForItem1 }}
+            src="{{ $item1.Thumbnail }}"
+          {{ else }}
+            src="./assets/img/placeholder.png"
+          {{ end }}
+
+          alt="item1"
+        />
+
+        <img
+          id="item2"
+          data-id="0"
+          class="absolute left-0 top-0 z-10 h-full w-full"
+
+          {{ if $item2 := .Data.SelectedSecondaryNftForItem2 }}
+            src="{{ $item2.Thumbnail }}"
+          {{ else }}
+            src="./assets/img/placeholder.png"
+          {{ end }}
+
+          alt="item2"
+        />
+      </div>
+
+
+      <!-- img btns -->
+      <div
+        class="absolute -bottom-[50px] left-1/2 z-10 flex -translate-x-1/2 space-x-6 xs:space-x-[10px]"
+      >
+
+        <button
+          id="choose-item-1"
+          data-tab="1"
+          class="item-btn selected item-btn-1 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+            >Background</span
+          >
+          <a href="#" class="choose-bg-remove hidden" data-tab="1">
+            <img
+              src="./assets/img/remove-item.svg"
+              alt=""
+              class="pointer-events-none"
+            />
+          </a>
+          <div
+            id="choose-bg"
+            class="pointer-events-none absolute left-0 top-0 hidden h-full w-full"
+          >
+            <img
+              class="sm-item-alien pointer-events-none absolute left-0 top-0 z-[4] h-full w-full"
+              src="{{ .Data.SelectedMainNftTransparentThumbnail }}"
+              alt=""
+            />
+
+            <img
+              id="choose-item-1-bg"
+              class="pointer-events-none absolute left-0 top-0 z-[1] h-full w-full"
+
+              {{ if $item := .Data.SelectedSecondaryNftForBackround }}
+                src="{{ $item.Thumbnail }}"
+              {{ else }}
+                src="./assets/img/green-bg.png"
+              {{ end }}
+
+              alt="background item"
+            />
+          </div>
+        </button>
+
+
+        <button
+          id="choose-item-2"
+          data-tab="2"
+          class="item-btn item-btn-2 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+            >Item 1</span
+          >
+          <a href="#" class="choose-item1-remove hidden" data-tab="2">
+            <img
+              src="./assets/img/remove-item.svg"
+              alt=""
+              class="pointer-events-none"
+            />
+          </a>
+          <div
+            id="choose-item-first"
+            class="pointer-events-none absolute left-0 top-0 hidden h-full w-full"
+          >
+            <img
+              class="absolute left-0 top-0 z-[1] h-full w-full rounded-xl"
+              src="./assets/img/green-bg.png"
+              alt=""
+            />
+            <img
+              class="sm-item-alien relative z-[3] h-full w-full overflow-hidden rounded-xl"
+              src="{{ .Data.SelectedMainNftTransparentThumbnail }}"
+              alt=""
+            />
+            <img
+              class="item-1-item absolute left-0 top-0 z-[2] h-full w-full overflow-hidden rounded-xl"
+              {{ if $item := .Data.SelectedSecondaryNftForItem1 }}
+                src="{{ $item.Thumbnail }}"
+              {{ else }}
+                src="./assets/img/item1.png"
+              {{ end }}
+              alt=""
+            />
+          </div>
+        </button>
+
+        <button
+          id="choose-item-3"
+          data-tab="3"
+          class="item-btn item-btn-3 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+            >Item 2</span
+          >
+          <a href="#" class="choose-item2-remove hidden" data-tab="2">
+            <img
+              src="./assets/img/remove-item.svg"
+              alt=""
+              class="pointer-events-none"
+            />
+          </a>
+          <div
+            id="choose-item-second"
+            class="pointer-events-none absolute left-0 top-0 hidden h-full w-full"
+          >
+            <img
+              class="absolute left-0 top-0 z-[1] h-full w-full rounded-xl"
+              src="./assets/img/green-bg.png"
+              alt=""
+            />
+            <img
+              class="sm-item-alien relative z-[3] h-full w-full overflow-hidden rounded-xl"
+              src="{{ .Data.SelectedMainNftTransparentThumbnail }}"
+              alt=""
+            />
+            <img
+              class="item-2-item absolute left-0 top-0 z-[2] h-full w-full overflow-hidden rounded-xl"
+              {{ if $item := .Data.SelectedSecondaryNftForItem2 }}
+                src="{{ $item.Thumbnail }}"
+              {{ else }}
+                src="./assets/img/item2.png"
+              {{ end }}
+              alt=""
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+    {{ end }}
+
+
+
+    <!-- item content -->
+    <div class="w-full max-w-[460px] pr-[10px] xs:pr-0">
+      <!-- items -->
+      <div
+        class="items-content active items-content-1 hidden flex-wrap gap-5 tablet:justify-center xs:gap-[17px] xs:pr-[10px]"
+      >
+        {{ range $idx, $item := .Data.SecondaryNftCollection }}
+          {{ if eq $item.ParentRelationTrait $.Data.ParentRelationBackroundKey }}
+            <button
+              data-id="{{ $item.TokenID }}"
+              data-bg="./assets/img/bg-yellow.png"
+
+              {{ if $item.IsOWnedByCurrentWallet }}
+
+                {{ if eq $item.ParentTokenID $.Data.SelectedMainNft.TokenID }}
+                  class="active item-select item-select-bg relative h-[97px] w-[97px] rounded-xl"
+                {{ else }}
+                  class="item-select item-select-bg relative h-[97px] w-[97px] rounded-xl"
+                {{ end }}
+
+              {{ else }}
+                class="buy item-select item-select-bg relative h-[97px] w-[97px] rounded-xl"
+              {{ end }}
+            >
+              <img
+                class="absolute left-0 top-0 h-full w-full rounded-xl"
+                src="{{ $item.Thumbnail }}"
+                alt=""
+              />
+              <img
+                class="sm-item-alien relative z-[1] h-full w-full overflow-hidden rounded-xl"
+                src="{{ $.Data.SelectedMainNftTransparentThumbnail }}"
+                alt=""
+              />
+
+              {{ if $item.IsOWnedByCurrentWallet }}
+                <p class="balance"><b data-value="{{ $item.BalanceOfCurrentWallet }}">{{ $item.BalanceOfCurrentWallet }}</b>x</p>
+              {{ else }}
+                <a href="/whitelist">
+                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="17.5" cy="17.5" r="17.5" fill="#202020"></circle> <path d="M11.7477 12.946L9 10.1983L10.1983 9L12.946 11.7477H25.8611C26.3291 11.7477 26.7085 12.127 26.7085 12.595C26.7085 12.6775 26.6964 12.7595 26.6728 12.8385L24.6392 19.6174C24.5316 19.9757 24.2017 20.2212 23.8275 20.2212H13.4424V21.9159H22.7633V23.6106H12.595C12.127 23.6106 11.7477 23.2312 11.7477 22.7632V12.946ZM13.0187 27C12.3167 27 11.7477 26.4309 11.7477 25.729C11.7477 25.027 12.3167 24.4579 13.0187 24.4579C13.7207 24.4579 14.2897 25.027 14.2897 25.729C14.2897 26.4309 13.7207 27 13.0187 27ZM23.187 27C22.4849 27 21.9159 26.4309 21.9159 25.729C21.9159 25.027 22.4849 24.4579 23.187 24.4579C23.8889 24.4579 24.458 25.027 24.458 25.729C24.458 26.4309 23.8889 27 23.187 27Z" fill="white"></path></svg>
+                </a>
+              {{ end }}
+
+            </button>
+          {{ end }}
+        {{ end }}
+      </div>
+
+
+      <div
+        class="items-content items-content-2 hidden flex-wrap gap-5 tablet:justify-center xs:gap-[17px] xs:pr-[10px]"
+      >
+        {{ range $idx, $item := .Data.SecondaryNftCollection }}
+          {{ if eq $item.ParentRelationTrait $.Data.ParentRelationItem1Key }}
+          <button
+            data-id="{{ $item.TokenID }}"
+            data-item="./assets/img/item1.png"
+
+            {{ if $item.IsOWnedByCurrentWallet }}
+
+              {{ if eq $item.ParentTokenID $.Data.SelectedMainNft.TokenID }}
+                class="active item-select item-select-1 relative h-[97px] w-[97px] rounded-xl"
+              {{ else }}
+                class="item-select item-select-1 relative h-[97px] w-[97px] rounded-xl"
+              {{ end }}
+
+            {{ else }}
+              class="buy item-select item-select-1 relative h-[97px] w-[97px] rounded-xl"
+            {{ end }}
+          >
+            <img
+              class="absolute left-0 top-0 z-[1] h-full w-full rounded-xl"
+              src="{{ $item.Thumbnail }}"
+              alt=""
+            />
+            <img
+              class="sm-item-alien relative z-[3] h-full w-full overflow-hidden rounded-xl"
+              src="{{ $.Data.SelectedMainNftTransparentThumbnail }}"
+              alt=""
+            />
+
+<!-- 
+            <img
+              class="item-1-item absolute left-0 top-0 z-[2] h-full w-full overflow-hidden rounded-xl"
+              src="./assets/img/item1.png"
+              alt=""
+            />
+            <p class="balance"><b data-value="{{ $item.BalanceOfCurrentWallet }}">{{ $item.BalanceOfCurrentWallet }}</b>x</p>
+ -->
+
+              {{ if $item.IsOWnedByCurrentWallet }}
+                <p class="balance"><b data-value="{{ $item.BalanceOfCurrentWallet }}">{{ $item.BalanceOfCurrentWallet }}</b>x</p>
+              {{ else }}
+                <a href="/whitelist">
+                  <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="17.5" cy="17.5" r="17.5" fill="#202020"></circle> <path d="M11.7477 12.946L9 10.1983L10.1983 9L12.946 11.7477H25.8611C26.3291 11.7477 26.7085 12.127 26.7085 12.595C26.7085 12.6775 26.6964 12.7595 26.6728 12.8385L24.6392 19.6174C24.5316 19.9757 24.2017 20.2212 23.8275 20.2212H13.4424V21.9159H22.7633V23.6106H12.595C12.127 23.6106 11.7477 23.2312 11.7477 22.7632V12.946ZM13.0187 27C12.3167 27 11.7477 26.4309 11.7477 25.729C11.7477 25.027 12.3167 24.4579 13.0187 24.4579C13.7207 24.4579 14.2897 25.027 14.2897 25.729C14.2897 26.4309 13.7207 27 13.0187 27ZM23.187 27C22.4849 27 21.9159 26.4309 21.9159 25.729C21.9159 25.027 22.4849 24.4579 23.187 24.4579C23.8889 24.4579 24.458 25.027 24.458 25.729C24.458 26.4309 23.8889 27 23.187 27Z" fill="white"></path></svg>
+                </a>
+              {{ end }}
+
+          </button>
+          {{ end }}
+        {{ end }}
+      </div>
+
+
+      <div
+        class="items-content items-content-3 hidden flex-wrap gap-5 tablet:justify-center xs:gap-[17px] xs:pr-[10px]"
+      >
+        {{ range $idx, $item := .Data.SecondaryNftCollection }}
+          {{ if eq $item.ParentRelationTrait $.Data.ParentRelationItem2Key }}
+          <button
+            data-id="{{ $item.TokenID }}"
+            data-item="./assets/img/item2.png"
+
+            {{ if $item.IsOWnedByCurrentWallet }}
+
+              {{ if eq $item.ParentTokenID $.Data.SelectedMainNft.TokenID }}
+                class="active item-select item-select-2 relative h-[97px] w-[97px] rounded-xl"
+              {{ else }}
+                class="item-select item-select-2 relative h-[97px] w-[97px] rounded-xl"
+              {{ end }}
+
+            {{ else }}
+              class="buy item-select item-select-2 relative h-[97px] w-[97px] rounded-xl"
+            {{ end }}
+          >
+
+            <img
+              class="absolute left-0 top-0 z-[1] h-full w-full rounded-xl"
+              src="{{ $item.Thumbnail }}"
+              alt=""
+            />
+            <img
+              class="sm-item-alien relative z-[3] h-full w-full overflow-hidden rounded-xl"
+              src="{{ $.Data.SelectedMainNftTransparentThumbnail }}"
+              alt=""
+            />
+
+<!-- 
+            <img
+              class="item-2-item absolute left-0 top-0 z-[2] h-full w-full overflow-hidden rounded-xl"
+              src="./assets/img/item2.png"
+              alt=""
+            />
+            <p class="balance"><b data-value="{{ $item.BalanceOfCurrentWallet }}">{{ $item.BalanceOfCurrentWallet }}</b>x</p>
+ -->
+
+            {{ if $item.IsOWnedByCurrentWallet }}
+              <p class="balance"><b data-value="{{ $item.BalanceOfCurrentWallet }}">{{ $item.BalanceOfCurrentWallet }}</b>x</p>
+            {{ else }}
+              <a href="/whitelist">
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="17.5" cy="17.5" r="17.5" fill="#202020"></circle> <path d="M11.7477 12.946L9 10.1983L10.1983 9L12.946 11.7477H25.8611C26.3291 11.7477 26.7085 12.127 26.7085 12.595C26.7085 12.6775 26.6964 12.7595 26.6728 12.8385L24.6392 19.6174C24.5316 19.9757 24.2017 20.2212 23.8275 20.2212H13.4424V21.9159H22.7633V23.6106H12.595C12.127 23.6106 11.7477 23.2312 11.7477 22.7632V12.946ZM13.0187 27C12.3167 27 11.7477 26.4309 11.7477 25.729C11.7477 25.027 12.3167 24.4579 13.0187 24.4579C13.7207 24.4579 14.2897 25.027 14.2897 25.729C14.2897 26.4309 13.7207 27 13.0187 27ZM23.187 27C22.4849 27 21.9159 26.4309 21.9159 25.729C21.9159 25.027 22.4849 24.4579 23.187 24.4579C23.8889 24.4579 24.458 25.027 24.458 25.729C24.458 26.4309 23.8889 27 23.187 27Z" fill="white"></path></svg>
+              </a>
+            {{ end }}
+
+          </button>
+          {{ end }}
+        {{ end }}
+      </div>
+
+
+      <!-- cta -->
+      <div
+        class="items-cta-btns mx-auto mt-[35px] flex w-full max-w-[384px] justify-center gap-6 xs:gap-[10px]"
+      >
+        <button
+          id="download"
+          v-on:click="onDownload"
+          class="w-1/2 rounded-lg bg-white p-[15px] font-nexabold text-base font-bold leading-none text-[#171B1F]"
+        >
+          Download
+        </button>
+        <button
+          class="approve w-1/2 rounded-lg border-2 border-white p-[15px] font-nexabold text-base font-bold leading-none text-white"
+        >
+          Approve
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "post_content" }}
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script type="text/javascript">
+  //TODO get from the server
+  const currentRelativeURL = "/wardrobe";
+  const transparentImageOfSelectedMainNft = {{ .Data.SelectedMainNftTransparentThumbnail }};
+  const nonTransparentImageOfSelectedMainNft = {{ .Data.SelectedMainNft.Thumbnail }};
+
+  {{ if .Data.SelectedSecondaryNftForBackround }}
+  const initialSelectedTokenIDForBackground = {{ .Data.SelectedSecondaryNftForBackround.TokenID }};
+  {{ else }}
+  const initialSelectedTokenIDForBackground = 0;
+  {{ end }}
+
+  {{ if .Data.SelectedSecondaryNftForItem1 }}
+  const initialSelectedTokenIDForItem1 = {{ .Data.SelectedSecondaryNftForItem1.TokenID }};
+  {{ else }}
+  const initialSelectedTokenIDForItem1 = 0;
+  {{ end }}
+
+  {{ if .Data.SelectedSecondaryNftForItem2 }}
+  const initialSelectedTokenIDForItem2 = {{ .Data.SelectedSecondaryNftForItem2.TokenID }};
+  {{ else }}
+  const initialSelectedTokenIDForItem2 = 0;
+  {{ end }}
+</script>
+<script defer src="./assets/js/wardrobe.js"></script>
+{{ end }}

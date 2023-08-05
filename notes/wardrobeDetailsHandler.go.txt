@@ -1,0 +1,49 @@
+func wardrobeDetailsHandler(w http.ResponseWriter, r *http.Request) {
+    switch r.Method {
+
+    case http.MethodGet:
+        contentType := r.Header.Get(helper.ContentTypeHeader)
+        if strings.Contains(contentType, helper.JsonHeader) {
+            decoder := json.NewDecoder(r.Body)
+            var params map[string]string
+            err := decoder.Decode(&params)
+            if err != nil {
+                // Handle error if decoding fails
+                http.Error(w, "Invalid JSON payload", http.StatusBadRequest)
+                return
+            }
+
+            // Create channels to receive results from each method
+            var wg sync.WaitGroup
+            wg.Add(2)
+            resultChs := make([]chan []byte, 2)
+            resultChs[0] = make(chan []byte)
+            go getMainNftCollection(&wg, resultChs[0], params["owner_wallet_address"])
+            resultChs[1] = make(chan []byte)
+            go getSecondaryNftCollection(&wg, resultChs[1])
+            wg.Wait()
+
+            jsonRespData := map[string]any{}
+            for i, resultCh := range resultChs {
+                data := <-resultCh
+                switch i {
+                case 0:
+                    jsonRespData[mainNftCollectionKey] = alchemy_com_api.ParseNftsInfo(data, "ownedNfts")
+                case 1:
+                    jsonRespData[secondaryNftCollectionKey] = alchemy_com_api.ParseNftsInfo(data, "nfts")
+                }
+
+                close(resultCh)
+            }
+            //
+            //
+
+            w.Header().Set(helper.ContentTypeHeader, helper.JsonHeader)
+            w.WriteHeader(http.StatusOK)
+
+            jsonResp, err := json.Marshal(jsonRespData)
+            helper.CheckErr(err)
+            w.Write(jsonResp)
+        }
+    }
+}

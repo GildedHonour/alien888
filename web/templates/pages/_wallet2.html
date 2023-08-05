@@ -1,0 +1,192 @@
+{{ define "content" }}
+<div
+  class="relative z-40 mx-auto max-w-[1130px] pb-[100px] pl-[10px] pr-[10px] pt-[140px] md:pt-[100px]"
+>
+  <!-- head -->
+  <div
+    class="flex items-center gap-[30px] xxs:flex-col xxs:items-start xxs:gap-[10px]"
+  >
+    <div class="flex items-center gap-[15px] xs:gap-[10px]">
+      <img
+        class="h-20 w-20 overflow-hidden rounded-lg xs:h-[60px] xs:w-[60px]"
+        width="80"
+        height="80"
+        src="./img/user-avatar.svg"
+        alt=""
+      />
+      <div>
+        <p
+          class="font-nexa text-base font-normal leading-[19px] text-white"
+        >
+          0x0173
+        </p>
+        <p
+          class="mt-[5px] font-nexabold text-2xl font-bold leading-none text-white"
+        >
+          e15f
+        </p>
+      </div>
+    </div>
+    <a
+      href="#"
+      class="flex items-center gap-[10px] rounded-lg border-2 border-white px-10 py-[22px] font-nexabold text-base font-bold leading-none text-white xs:py-5 xxs:w-full xxs:justify-center"
+    >
+      <svg
+        width="15"
+        height="18"
+        viewBox="0 0 15 18"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4.16504 2.33329C3.70457 2.33329 3.33129 1.96019 3.33129 1.49996C3.33129 1.03973 3.70458 0.666626 4.16504 0.666626H10.835C11.2954 0.666626 11.6688 1.03973 11.6688 1.49996C11.6688 1.96019 11.2954 2.33329 10.835 2.33329V7.04715L14.5883 13.1405C15.6745 14.904 14.5024 17.3333 12.3495 17.3333H2.65047C0.497594 17.3333 -0.674481 14.904 0.411702 13.1405L4.16504 7.04715V2.33329ZM5.83252 2.33329V7.28311C5.83252 7.43738 5.78967 7.58863 5.70875 7.71996L4.40704 9.83329H10.593L9.29125 7.71996C9.21034 7.58863 9.1675 7.43738 9.1675 7.28311V2.33329H5.83252Z"
+          fill="white"
+        />
+      </svg>
+      Wardrobe
+    </a>
+  </div>
+  <!-- Tab btns -->
+  <div
+    class="mt-[50px] flex w-full max-w-[543px] items-center gap-2 rounded-lg bg-[#0E0F10] p-2 xs:mt-5"
+  >
+    <button
+      data-tab="1"
+      class="wallet-tab-btn active w-1/2 rounded-sm bg-[#1D1D1D] p-[10px] text-center font-nexabold text-base font-bold leading-[24px] text-white"
+    >
+      Aliens
+    </button>
+    <button
+      data-tab="2"
+      class="wallet-tab-btn w-1/2 rounded-sm bg-[#1D1D1D] p-[10px] text-center font-nexabold text-base font-bold leading-[24px] text-white"
+    >
+      Dojo Items
+    </button>
+  </div>
+  <!-- Tab content -->
+  <div class="mt-[30px]">
+    <div
+      class="wallet-tab-content wallet-tab-content-1 grid grid-cols-4 gap-6 md:grid-cols-3 sm:grid-cols-2 xs:gap-[10px]"
+    >
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img3.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img2.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img1.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img4.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+    </div>
+    <div
+      class="wallet-tab-content wallet-tab-content-2 hidden grid-cols-4 gap-6 md:grid-cols-3 sm:grid-cols-2 xs:gap-[10px]"
+    >
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img1.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img3.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img2.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+      <div
+        class="max-w-[260px] rounded-[20px] bg-[#24292D]/60 p-[15px] shadow-cardshadow xs:rounded-[12px] xs:p-[10px]"
+      >
+        <img
+          class="h-auto w-full max-w-[230px] overflow-hidden rounded-[20px] object-cover xs:rounded-[12px]"
+          src="./img/card-img4.png"
+          alt=""
+        />
+        <p
+          class="mt-5 text-center font-nexabold text-base font-bold leading-none text-white xs:mt-[10px] xs:text-[12px]"
+        >
+          888 ALIEN #929
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

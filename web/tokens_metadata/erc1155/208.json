@@ -1,0 +1,7 @@
+{
+    "name":"GLP Shirt",
+    "description":"The perfect shirt for chilling out while GLP gives you passive income. Free claim for the first Blueberry Lab Item",
+    "parent_relation_trait": "item_2",
+    "attributes":[{"trait_type":"Clothes","value":"GLP Shirt"},{"trait_type":"Slot","value":"Wear"}],
+    "image":"ipfs://bafybeigj5ouuidnriglvvqhr3smmlk467hkhpze6u7dx5hkfrojbq63nla/lab-208.png"
+}

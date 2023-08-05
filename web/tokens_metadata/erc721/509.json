@@ -1,0 +1,30 @@
+{
+    "name": "888 ALIEN #509",
+    "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/509.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "888 White"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Alien"
+        },
+        {
+            "trait_type": "Clothes",
+            "value": "Dragon"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "UP"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Angry Black"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Big Astonishment"
+        }
+    ]
+}

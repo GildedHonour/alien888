@@ -1,0 +1,13 @@
+api_keys:
+  mainnet:
+    infura_io: ~
+    etherscan_io: ~
+    alchemy_com: 
+  testnet:
+    infura_io: ~
+    etherscan_io: ~
+    alchemy_com: ~
+
+---
+main image:
+  src="./assets/img/transparent_heros/hero__{{ $.SelectedMainNftToken.TokenID }}.png"

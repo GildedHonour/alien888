@@ -1,0 +1,81 @@
+{{ define "content" }}
+<div
+  id="frame"
+  class="frame relative z-10 mx-auto w-full max-w-[1130px] pb-[130px] pl-[10px] pr-[10px] pt-[140px] tablet:pb-[70px] sm:pt-[110px]"
+>
+  <!-- top dropdown -->
+  <div
+    class="flex w-full max-w-[543px] items-center gap-[10px] space-x-6 tablet:mx-auto xs:space-x-0"
+  >
+    <div class="item-dropdown relative z-20 w-full">
+      <div
+        class="item-drop-menu absolute left-0 top-full hidden w-full"
+      >
+      </div>
+    </div>
+  </div>
+
+  <!-- content -->
+  <div
+    class="mt-6 flex h-full min-h-[543px] justify-between space-x-6 tablet:flex-col tablet:items-center tablet:gap-[80px] tablet:space-x-0"
+  >
+
+    <!-- main img -->
+    <div
+      class="relative mb-auto h-full w-full max-w-[543px]"
+    >
+      <div
+        id="capture"
+        class="relative h-full min-h-[543px] w-full max-w-[543px] overflow-hidden rounded-[30px]"
+        style="background: #242d34"
+      >
+      </div>
+
+      <!-- img btns -->
+      <div
+        class="absolute -bottom-[50px] left-1/2 z-10 flex -translate-x-1/2 space-x-6 xs:space-x-[10px]"
+      >
+
+        <button
+          id="choose-item-1"
+          class="item-btn selected item-btn-1 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+          >Background</span
+          >
+          <div
+            id="choose-bg"
+            class="pointer-events-none absolute left-0 top-0 hidden h-full w-full"
+          >
+          </div>
+        </button>
+
+        <button
+          id="choose-item-2"
+          data-tab="2"
+          class="item-btn item-btn-2 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+          >Item 1</span
+          >
+        </button>
+
+        <button
+          id="choose-item-3"
+          data-tab="3"
+          class="item-btn item-btn-3 relative float-right h-[100px] w-[100px] items-center justify-center rounded-[20px] border-2 border-[#0E0F10] bg-[#0E0F10]"
+        >
+          <span
+            class="pointer-events-none font-nexa text-xs font-normal text-[#98B0C5]"
+          >Item 2</span
+          >
+        </button>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}

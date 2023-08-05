@@ -1,0 +1,7 @@
+{
+    "name":"NFT Paris Bandana",
+    "description":"In the city of light,\nNFTs bloomed, a digital sight.\nPixels danced, colors swirled,\nA new revolution unfurled.\n\nArtists mingled, traders roamed,\nIn this vibrant, virtual home.\nBoundaries blurred, ideas soared,\nThe NFT realm, globally adored.",
+    "parent_relation_trait": "item_2",
+    "attributes":[{"trait_type":"Face Accessory","value":"NFT Paris Bandana"},{"trait_type":"Slot","value":"Wear"}],
+    "image":"ipfs://bafybeidjztza2djwhoq6avcdw5jy7gp5a4tffhvn6xhoqtvlmeqv6vfr3a/lab-NFT%20Paris%20Bandana.png"
+}

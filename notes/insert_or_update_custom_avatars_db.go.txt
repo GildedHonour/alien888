@@ -1,0 +1,54 @@
+         selectQuery := `
+             SELECT id
+             FROM custom_avatars
+                 WHERE chain_id = ?
+                 AND wallet_address = ?
+             LIMIT 1
+`
+         var existingID int
+         err = dbConn.QueryRow(selectQuery, cfg.ChainID, params["wallet_address"]).Scan(&existingID)
+         if err != nil && err != sql.ErrNoRows {
+             panic(err)
+         }
+
+     if existingID > 0 {
+         // TODO: save avatar into an image file
+
+         // Update the existing record
+         updateQuery := `
+             UPDATE custom_avatars(
+                 chain_id,
+                 wallet_address,
+                 image_in_base64,
+
+                 main_nft_token_id,
+                 secondary_nft1_token_id,
+                 secondary_nft2_token_id,
+                 secondary_nft3_token_id,
+
+                 updated_at
+             )
+             VALUES (
+                 ?, ?, ?,
+                 ?, ?, ?, ?,
+                 DATETIME('now')
+             )
+`
+
+         _, err = dbConn.Exec(
+             updateQuery,
+
+             cfg.ChainID,
+             params["wallet_address"],
+             params["image_in_base64"],
+
+             params["main_nft_token_id"],
+             params["secondary_nft1_token_id"],
+             params["secondary_nft2_token_id"],
+             params["secondary_nft3_token_id"],
+         )
+
+         if err != nil {
+             panic(err)
+         }
+     } else {

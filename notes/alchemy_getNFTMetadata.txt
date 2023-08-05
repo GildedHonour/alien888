@@ -1,0 +1,77 @@
+https://arb-mainnet.g.alchemy.com/nft/v3/docs-demo/getNFTMetadata?contractAddress=0x10d2baeb37A4079fc62cc716B08e2452936424B1&tokenId=356&refreshCache=false'
+
+===>
+
+{
+  "contract": {
+    "address": "0x10d2baeb37A4079fc62cc716B08e2452936424B1",
+    "name": "888 Alien",
+    "symbol": "888 Alien",
+    "totalSupply": "888",
+    "tokenType": "ERC721",
+    "contractDeployer": "0x70Ae1a02A86f576Fa7Dfc0287ab3c8c65280D367",
+    "deployedBlockNumber": 74761677,
+    "openSeaMetadata": {
+      "floorPrice": null,
+      "collectionName": null,
+      "safelistRequestStatus": null,
+      "imageUrl": null,
+      "description": null,
+      "externalUrl": null,
+      "twitterUsername": null,
+      "discordUrl": null,
+      "lastIngestedAt": null
+    },
+    "isSpam": null,
+    "spamClassifications": []
+  },
+  "tokenId": "356",
+  "tokenType": "ERC721",
+  "name": "888 ALIEN #356",
+  "description": null,
+  "image": {
+    "cachedUrl": "https://nft-cdn.alchemy.com/arb-mainnet/5606cff8c1971afd42e18a3294692a80",
+    "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/5606cff8c1971afd42e18a3294692a80",
+    "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/arb-mainnet/5606cff8c1971afd42e18a3294692a80",
+    "contentType": "image/png",
+    "size": 237132,
+    "originalUrl": "https://ipfs.io/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/356.png"
+  },
+  "raw": {
+    "tokenUri": "https://888aliens.mypinata.cloud/ipfs/QmPRxFL698GixMGYKtqZ1WeBABhApfapzx9UNkAV6BpiTZ/356",
+    "metadata": {
+      "name": "888 ALIEN #356",
+      "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/356.png",
+      "attributes": [
+        {
+          "trait_type": "Background",
+          "value": "Red"
+        },
+        {
+          "trait_type": "Body",
+          "value": "Red Marks"
+        },
+        {
+          "trait_type": "Clothes",
+          "value": "V Collar"
+        },
+        {
+          "trait_type": "Hair",
+          "value": "Bandaged Horns"
+        },
+        {
+          "trait_type": "Eyes",
+          "value": "One Eye"
+        },
+        {
+          "trait_type": "Mouth",
+          "value": "Tongue Out"
+        }
+      ]
+    },
+    "error": null
+  },
+  "tokenUri": "https://ipfs.io/ipfs/QmPRxFL698GixMGYKtqZ1WeBABhApfapzx9UNkAV6BpiTZ/356",
+  "timeLastUpdated": "2023-07-10T00:01:46.343Z"
+}
+

@@ -1,0 +1,61 @@
+
+
+//FIXME
+async function switchMetamaskWalletChain() {
+  try {
+    await ethereum.request({
+      method: "wallet_switchEthereumChain",
+      params: [{ chainId: 0xa4b1 }]
+    });
+  } catch (err) {
+    //NOTE this won't work on mobile
+    if (err.code === 4902) {
+        await addArbitrumOneChain();
+    }
+    console.error(err);
+  }
+};
+
+async function addArbitrumOneChain() {
+  try {
+    await provider.request({
+      method: 'wallet_addEthereumChain',
+      params: [{
+        chainId: '0xa4b1',
+        chainName: 'Arbitrum One',
+        rpcUrls: ["https://arb1.arbitrum.io/rpc/", "https://rpc.ankr.com/arbitrum/"],
+        blockExplorerUrls: ['https://arbiscan.io'],
+        nativeCurrency: {
+          name: "Ether",
+          symbol: "ETH",
+          decimals: 18,
+        }
+      }]
+    });
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+async function addArbitrumGoerliChain() {
+  try {
+    await provider.request({
+      method: 'wallet_addEthereumChain',
+      params: [{
+        chainId: '0x66eed',
+        chainName: 'Arbitrum Goerli',
+        rpcUrls: ['https://arbitrum-goerli.public.blastapi.io', 'https://goerli-rollup.arbitrum.io/rpc'],
+        blockExplorerUrls: ['https://goerli.arbiscan.io'],
+        nativeCurrency: {
+          name: "Ether",
+          symbol: "ETH",
+          decimals: 18,
+        }
+      }]
+    });
+  } catch (err) {
+    console.log(err);
+  }
+}
+//
+

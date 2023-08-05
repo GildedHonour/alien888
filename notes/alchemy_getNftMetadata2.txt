@@ -1,0 +1,50 @@
+getNftMetadata
+
+{
+  "contract": {
+    "address": "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7"
+  },
+  "id": {
+    "tokenId": "210",
+    "tokenMetadata": {
+      "tokenType": "ERC1155"
+    }
+  },
+  "title": "GBC x Wine bottle Club",
+  "description": "For all members present at the Wine Bottle Club x GBC event in Bordeaux",
+  "tokenUri": {
+    "gateway": "https://alchemy.mypinata.cloud/ipfs/bafyreifnhzkwos6oiwsjwj7rg53srewmk7hoirhtihp2lxrxin5v6r3bgq/metadata.json",
+    "raw": "ipfs://bafyreifnhzkwos6oiwsjwj7rg53srewmk7hoirhtihp2lxrxin5v6r3bgq/metadata.json"
+  },
+  "media": [
+    {
+      "gateway": "https://nft-cdn.alchemy.com/arb-mainnet/9c53a9c4d7b0d79c7e1d964b9ef7cddd",
+      "thumbnail": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/arb-mainnet/9c53a9c4d7b0d79c7e1d964b9ef7cddd",
+      "raw": "ipfs://bafybeie3cz2675anwffhlhfra6f6xkd5wqwulfprxyynim5feniuge7wxu/lab-210.png",
+      "format": "png",
+      "bytes": 232464
+    }
+  ],
+  "metadata": {
+    "name": "GBC x Wine bottle Club",
+    "description": "For all members present at the Wine Bottle Club x GBC event in Bordeaux",
+    "image": "ipfs://bafybeie3cz2675anwffhlhfra6f6xkd5wqwulfprxyynim5feniuge7wxu/lab-210.png",
+    "attributes": [
+      {
+        "value": "GBC x Wine bottle Club",
+        "trait_type": "Hat"
+      },
+      {
+        "value": "Wear",
+        "trait_type": "Slot"
+      }
+    ]
+  },
+  "timeLastUpdated": "2023-02-27T13:00:57.100Z",
+  "contractMetadata": {
+    "tokenType": "ERC1155",
+    "contractDeployer": "0x9e7f78eafaebaf1094202ffa0835157fc5c3ade0",
+    "deployedBlockNumber": 13910680,
+    "openSea": {}
+  }
+}

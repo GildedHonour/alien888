@@ -1,0 +1,30 @@
+{
+    "name": "888 ALIEN #395",
+    "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/395.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Cursed Marks"
+        },
+        {
+            "trait_type": "Clothes",
+            "value": "Oni’s Slayer"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Slicked"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "One Eye"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Full Up"
+        }
+    ]
+}

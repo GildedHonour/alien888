@@ -1,0 +1,30 @@
+{
+    "name": "888 ALIEN #763",
+    "image": "https://888aliens.mypinata.cloud/ipfs/QmcwNiBvN7LyMBLxpHgFwsNLFGCgsZdpMdAmWrf41dYaNv/763.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Red Marks"
+        },
+        {
+            "trait_type": "Clothes",
+            "value": "Toga"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Disheveled"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Taijutsu"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "White Beard"
+        }
+    ]
+}

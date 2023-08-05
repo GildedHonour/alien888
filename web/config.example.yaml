@@ -1,0 +1,27 @@
+host: ~
+port: ~
+
+chain_id: ~
+main_nft_contract_address: ~
+secondary_nft_contract_address: ~
+main_nft_to_secondary_nft_max_amount: ~
+
+infura_api_urls:
+  eth_mainnet: ~
+  eth_goerli: ~
+  eth_sepolia: ~
+  arb_mainnet: ~
+  arb_goerli: ~
+
+alchemy_api_urls:
+  eth_mainnet: ~
+  eth_goerli: ~
+  eth_sepolia: ~
+  arb_mainnet: ~
+  arb_goerli: ~
+
+blueberry_gbc_contract_address: ~
+blueberry_lab_items_contract_address: ~
+
+test_wallet_address_1: ~
+test_wallet_address_2: ~

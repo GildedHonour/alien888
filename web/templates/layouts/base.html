@@ -1,0 +1,327 @@
+{{ define "base" }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    {{ if .PageTitle }}
+      {{ .PageTitle }} | Alien888 NFTs
+    {{ else }}
+      Alien888 NFTs
+    {{ end }}
+    </title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body class="">
+    <div class="wrapper relative min-h-screen w-full overflow-hidden">
+    {{ block "pre_content" . }}
+    {{ end }}
+
+      <!-- Lines -->
+      <!--div
+        class="lines absolute left-1/2 top-0 mx-auto flex w-full max-w-[1280px] -translate-x-1/2 justify-between tablet:hidden"
+      >
+        <div class="h-screen w-[1px] bg-[#252525]"></div>
+        <div class="h-screen w-[1px] bg-[#252525]"></div>
+        <div class="h-screen w-[1px] bg-[#252525]"></div>
+        <div class="h-screen w-[1px] bg-[#252525]"></div>
+      </div-->
+      <!-- Blurs -->
+      <div
+        class="absolute -right-[200px] -top-[200px] h-[400px] w-[400px] rounded-full bg-[#8B65FA]/75 blur-[250px] xs:-right-[70px] xs:-top-[70px] xs:h-[260px] xs:w-[260px]"
+      ></div>
+      <div
+        class="absolute -bottom-[200px] left-[230px] h-[400px] w-[400px] rounded-full bg-[#8B65FA]/75 blur-[250px] xs:-bottom-[30px] xs:left-[20px] xs:h-[260px] xs:w-[260px]"
+      ></div>
+      <img
+        width="575"
+        height="415"
+        src="./assets/img/graphic.png"
+        alt="vector"
+        class="absolute bottom-0 left-0 tablet:max-w-[300px] xs:-left-[70px] xs:bottom-0"
+      />
+      <div
+        class="absolute -bottom-[300px] -left-[300px] h-[400px] w-[400px] rounded-full bg-[#38E567]/75 blur-[250px] xs:-bottom-[130px] xs:-left-[130px] xs:h-[260px] xs:w-[260px]"
+      ></div>
+      <!-- Header -->
+      <header class="absolute left-0 top-0 z-50 w-full xlg:px-[10px]">
+        <div
+          class="container relative z-[1000] flex w-full items-center justify-between space-x-5 pt-[10px] xlg:rounded-bl-[10px] xlg:rounded-br-[10px] xlg:bg-[#0D0D0D] xlg:py-[5px]"
+        >
+          <a
+            href="/"
+            class="inline-block h-20 w-20 overflow-hidden rounded-full xlg:mr-auto xlg:h-[50px] xlg:w-[50px]"
+          >
+            <img
+              class="h-full w-full object-cover"
+              src="./assets/img/logo.svg"
+              alt=""
+            />
+          </a>
+          <nav class="user xlg:hidden">
+            <ul
+              class="flex space-x-1 rounded-[8px] border-2 border-[#1D1D1D] bg-darkcolor px-1 py-1"
+            >
+              <li>
+                <a href="#" class="nav-link bg-[#1D1D1D] hover:bg-[#1D1D1D]">World</a>
+              </li>
+              <li>
+                <a href="/gallery" class="nav-link hover:bg-[#1D1D1D]">Gallery</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link hover:bg-[#1D1D1D]">Earn</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link hover:bg-[#1D1D1D]">More</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link hover:bg-[#1D1D1D]">Dojo</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link hover:bg-[#1D1D1D]">Buy</a>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="./wallet"
+            class="flex rounded-[8px] border-[2px] border-[#1D1D1D] bg-darkcolor xlg:ml-auto"
+          >
+            <div class="flex items-center pr-[10px]">
+              <img
+                id="pfpImage"
+
+                {{ if and .UserWallet.IsAuthenticated .UserWallet }}
+                  class="header-avatar mr-2 h-[38px] w-[38px] overflow-hidden rounded-[6px] object-cover"
+                  src="{{ or .UserAvatarFileName "./assets/img/user-avatar.svg" }}"
+                {{ else }}
+                  class="mr-2 h-[38px] w-[38px] overflow-hidden rounded-[6px] object-cover"
+                  src="./assets/img/avatar-anonym.svg"
+                {{ end }}
+
+                alt="User avatar"
+              />
+              <div class="">
+                <p
+                  id="wallet-address-top-nav"
+                  class="mb-[2.5px] font-inter text-[10px] leading-3 text-white"
+
+                  {{ if and .UserWallet }}
+                    title="{{ or .UserWallet.Address "----" }}"
+                  {{ end }}
+
+                >
+                  {{ if and .UserWallet }}
+                    {{ or .UserWallet.ShortAddress "----" }}
+                  {{ end }}
+                </p>
+                <p
+                  id="wallet-address-top-nav-2"
+                  class="font-inter text-[14px] leading-3 text-white"
+                >
+                </p>
+              </div>
+            </div>
+            <div
+              class="border border-b-0 border-l-[2px] border-r-0 border-t-0 border-[#1D1D1D] px-1 py-[2px]"
+            >
+              <img width="38" height="35px" src="./assets/img/user-icon.svg" alt="" />
+            </div>
+          </a>
+          <div class="flex space-x-4 xlg:hidden">
+            <button
+              id="wallet-login"
+              class="inline-block w-full items-center rounded-[10px] border-2 border-[#1D1D1D] bg-[#0D0D0D]/75 px-[30px] py-[13px] font-nexa text-[14px] font-bold leading-5 text-white transition-all hover:border-darkcolor hover:bg-[#1D1D1D]"
+            >
+              Connect wallet
+            </button>
+
+            <div class="header-lang-btn relative">
+              <button
+                value="EN"
+                class="flex cursor-pointer items-center justify-center space-x-[6px] rounded-[10px] border-2 border-[#1D1D1D] bg-[#0D0D0D]/75 px-[18px] py-[16px]"
+              >
+                <p class="font-nexa text-[14px] uppercase leading-5 text-white">
+                  EN
+                </p>
+                <svg
+                  width="11"
+                  height="8"
+                  viewBox="0 0 11 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.56209 0.500903L5.66948 4.39351L1.76282 0.500903L0.469971 1.79375L5.65543 7.24622L10.8549 1.79375L9.56209 0.500903Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+
+              <div
+                class="header-lang-drop absolute left-0 top-full hidden w-full flex-col border-2 border-[#1D1D1D] bg-[#0D0D0D]/75"
+              >
+<!-- 
+                <button
+                  data-lang="RU"
+                  class="px-[18px] py-2 text-left font-nexa text-[14px] uppercase leading-5 text-white"
+                >
+                  RU
+                </button>
+                <button
+                  data-lang="AZ"
+                  class="px-[18px] py-2 text-left font-nexa text-[14px] uppercase leading-5 text-white"
+                >
+                  AZ
+                </button>
+ -->
+
+                <button
+                  data-lang="EN"
+                  class="px-[18px] py-2 text-left font-nexa text-[14px] uppercase leading-5 text-white"
+                >
+                  EN
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div
+            class="hidden h-[30px] w-[30px] items-center justify-center px-[4px] py-[5px] xlg:flex"
+          >
+            <button class="burger flex h-full w-full flex-col justify-between">
+              <span class="top-line h-[2px] w-full bg-white"></span>
+              <span class="middle-line h-[2px] w-full bg-white"></span>
+              <span class="bottom-line h-[2px] w-full bg-white"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          id="menu"
+          class="pb-60px fixed left-0 top-[-100%] z-10 hidden h-screen w-full flex-col items-center overflow-y-auto bg-[#171b1f] px-[10px] pb-[60px] pt-[90px] xlg:flex xs:pb-8"
+        >
+          <ul class="mb-10 flex flex-col items-center space-y-10 xs:space-y-7">
+            <li>
+              <a
+                href="#"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >World</a
+              >
+            </li>
+            <li>
+              <a
+                href="/gallery"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >Earn</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >More</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >Dojo</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-nexa text-base font-bold leading-5 text-white"
+                >Buy</a
+              >
+            </li>
+          </ul>
+          <div class="menu-lang-btn relative w-full max-w-[340px]">
+            <button
+              value="EN"
+              class="flex w-full cursor-pointer items-center justify-center space-x-[6px] rounded-[10px] border-2 border-[#1D1D1D] bg-[#0d0d0d] px-[18px] py-[16px]"
+            >
+              <p class="font-nexa text-[14px] uppercase leading-5 text-white">
+                EN
+              </p>
+              <svg
+                width="11"
+                height="8"
+                viewBox="0 0 11 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.56209 0.500903L5.66948 4.39351L1.76282 0.500903L0.469971 1.79375L5.65543 7.24622L10.8549 1.79375L9.56209 0.500903Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+
+            <div
+              class="menu-lang-drop absolute left-0 top-full hidden w-full flex-col border-2 border-[#1D1D1D] bg-[#0D0D0D]"
+            >
+<!-- 
+              <button
+                data-lang="RU"
+                class="px-[18px] py-2 text-center font-nexa text-[14px] uppercase leading-5 text-white"
+              >
+                RU
+              </button>
+              <button
+                data-lang="AZ"
+                class="px-[18px] py-2 text-center font-nexa text-[14px] uppercase leading-5 text-white"
+              >
+                AZ
+              </button>
+ -->
+
+              <button
+                data-lang="EN"
+                class="px-[18px] py-2 text-center font-nexa text-[14px] uppercase leading-5 text-white"
+              >
+                EN
+              </button>
+            </div>
+          </div>
+
+          <button
+            id="wallet-login2"
+            class="text-centerrounded-[10px] text-bold text-bold mt-[10px] w-full max-w-[340px] rounded-[10px] border-2 border-[#1D1D1D] bg-[#0d0d0d] px-5 py-[15px] font-nexa text-[14px] leading-4 text-white"
+          >
+            Connect wallet
+          </button>
+        </div>
+      </header>
+      <!-- Hero -->
+      <main>
+      {{ template "content" . }}
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js" integrity="sha512-FDcVY+g7vc5CXANbrTSg1K5qLyriCsGDYCE02Li1tXEYdNQPvLPHNE+rT2Mjei8N7fZbe0WLhw27j2SrGRpdMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <script defer src="./assets/js/script1.js"></script>
+    {{ block "post_content" . }}
+    {{ end }}
+
+
+    <!-- TODO remove -->
+    <div style="color: white">
+      <b>[debug info]</b>
+      <br />
+      <!-- smart contract: 0xdsfdsfds | network: ARB testnet -->
+    </div>
+    <!-- TODO remove -->
+
+
+  </body>
+</html>
+{{ end }}

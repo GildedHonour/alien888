@@ -1,0 +1,15 @@
+insert into nft_collections (
+    chain_id,
+    main_nft_contract_address,
+    main_nft_token_id,
+    secondary_nft_contract_address,
+    secondary_nft_token_id,
+    secondary_nft_token_trait_id
+) VALUES (
+    42161,
+    "0x17f4BAa9D35Ee54fFbCb2608e20786473c7aa49f",
+    1251,
+    "0xf4f935f4272e6fd9c779cf0036589a63b48d77a7",
+    217,
+    2
+);

@@ -1,0 +1,6 @@
+{
+    "name":"Holographic Badge",
+    "description":"In supersonic realms, a gift bestowed,\n  A holographic badge, its secrets sowed.\n  Electrons dance, a cosmic waltz they weave,\n  To holders of this emblem, more they shall receive.\n\n  A digital enigma, a story untold,\n  A badge of light, its mysteries unfold.\n  With whispered rhymes of galaxies afar,\n  The sky's sweet secrets, a cosmic avatar.\n\n  From astral heights, the gifts cascade,\n  To bearers of this spectral serenade.\n  The heavens part, celestial surprise,\n  For those who wear this badge, the skies apprise.",
+    "parent_relation_trait": "item_2",
+    "attributes":[{"value":"Holographic Badge"},{"trait_type":"Slot","value":"Wear"}],
+    "image":"ipfs://bafybeiagrtyd7xgal3gpmijysz5tevso3lljccifuivezlajzetu7gtuq4/lab-Holographic%20Badge.png"}
