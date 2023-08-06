@@ -17,6 +17,7 @@ type NftTokenInfo struct {
 	Title                  string                  `json:"title"`
 	Description            string                  `json:"description"`
 	Thumbnail              string                  `json:"thumbnail"`
+	TransparentThumbnail              string                  
 	Image                  string                  `json:"image"`
 	ContractAddress        string                  `json:"contract_address"`
 	Balance                int64                   `json:"balance"`
